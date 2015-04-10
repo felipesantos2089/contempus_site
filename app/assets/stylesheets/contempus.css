@@ -1,0 +1,51 @@
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300);
+
+.navbar-brand {
+  padding: 12px;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+
+.navbar-default {
+  border: none;
+  background: #fff;
+  margin-top: 30px;
+  margin-left: 210px;
+  margin-right: 210px;
+  height: 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #2A2A2A;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 0.9em;
+  letter-spacing: 0.2em;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: gray;
+}
+
+.nav>li>a {
+  padding: 20px;
+}
+
+.navbar-nav>li>a {
+  line-height: normal;
+}
+
+.navbar-nav {
+  display: table;
+  float: none;
+  padding-left: 75px;
+  padding-top: 5px;
+  table-layout: fixed;
+}
