@@ -111,7 +111,7 @@ Table of Contents:
 html {
   position: relative;
   min-height: 100%;
-  border: 40px solid #eceeef;
+  /*border: 40px solid #eceeef;*/
 }
 
 body {
@@ -120,8 +120,6 @@ body {
   line-height: 1.6;   
   background-color: #fff;
   background-repeat: repeat;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 i {
@@ -238,46 +236,130 @@ a:hover, a:focus {
   4) SLIDER STYLES
 ------------------------------------------------------- */
 
-.header-carousel{
+.header-carousel {
   background-color: #282828;
 }
-.header-carousel-caption{
+
+.header-carousel-caption {
   z-index: 1;
 }
-.header-carousel .item{
+
+.header-carousel .item {
   height: 400px;
 }
-.header-carousel img{
+
+.header-carousel img {
   position: absolute;
   top: 0;
   left: 0;
   min-height: 400px;
 }
+
 /* carrousel fade effect */
-.carousel-fade .carousel-inner .item{
+.carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
   transition-property: opacity;
 }
-.carousel-fade .carousel-inner .active{
+
+.carousel-fade .carousel-inner .active {
   opacity: 1;
 }
+
 .carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right{
+.carousel-fade .carousel-inner .active.right {
   left: 0;
   opacity: 0;
   z-index: 1;
 }
+
 .carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right{
+.carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
-.carousel-fade .carousel-control{
+
+.carousel-fade .carousel-control {
   z-index: 2;
 }
 /* end carrousel fade effect */
+
+
+
+/* ----------------------------------------------------
+  6) PORTFOLIO STYLES
+------------------------------------------------------- */
+
+#portfolio {
+  width: 100%;
+  padding-top: 30px;
+}
+#portfolio .filters {
+  margin-bottom: 20px;
+}
+#portfolio .filters li a {
+  color: #999;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#portfolio .filters li a, #portfolio .filters li a:hover, #portfolio .filters li a:focus {
+  color: #ff5733;
+}
+#portfolio .filters li a.active {
+  color: #b23c23 !important;
+  border-bottom: solid #fff 1px;
+}
+#portfolio .items {
+  margin-bottom: 0;
+}
+#portfolio .items li {
+  position: relative;
+  float: left;
+  width: 25%;
+  overflow: hidden;
+}
+#portfolio .items li a img {
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#portfolio .items li a .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-color: rgba(0,0,0,0.6);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+#portfolio .items li a .overlay span {
+  color: #FFF;
+  position: absolute;
+  height: 50px;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  margin-top: -25px;
+  line-height: 50px;
+}
+#portfolio .items li a:hover .overlay {
+  opacity: 1
+}
+#portfolio .items li a:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 /* ----------------------------------------------------
   RESPONSIVE STYLES
