@@ -1,5 +1,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*
 ---------------
@@ -74,6 +75,35 @@ Table of Contents:
   box-shadow: none;
 }
 
+.btn {
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.carousel-caption h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.carousel-caption {
+  top: 25%;
+  text-shadow: 2px;
+}
+
 /* ----------------------------------------------------
   2) GENERAL STYLE
 ------------------------------------------------------- */
@@ -88,10 +118,100 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   color: #333;
   line-height: 1.6;   
-  background-color:#fff;
-  background-repeat:repeat;
+  background-color: #fff;
+  background-repeat: repeat;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+i {
+  text-decoration: none;
+  color: #ff5733;
+}
+
+a { 
+  color:#c0c0c0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none; 
+  -webkit-transition: background-color .2s linear, color .2s linear;
+  -moz-transition: background-color .2s linear, color .2s linear;
+  -o-transition: background-color .2s linear, color .2s linear;
+  -ms-transition: background-color .2s linear, color .2s linear;
+  transition: background-color .2s linear, color .2s linear;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color:#ff5733;
+}
+
+.general-title h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333;
+}
+
+.title-devider {
+  border-bottom: 2px solid #191919;
+  display: block;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.service-title h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: #282828;
+  text-transform: uppercase;
+  font-weight: 600; 
+}
+
+.padding-top {
+  padding-top: 30px;
+}
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
+.white-btn {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff; 
+}
+
+.white-btn:hover {
+  background-color: transparent;
+  color: #2e2e99;
+  border-color: #2e2e99;
+}
+
+.black-btn { 
+  color: #282828;
+  background-color: transparent;
+  border-color: #282828;  
+}
+
+.black-btn:hover {
+  color: #ff5733;
+  background-color: transparent;
+  border-color: #ff5733;
+}
+
+.glyphicon-3x {
+  font-size: 2.7em;
+}
+
+.highlight-info {
+  background: url(/assets/modern_architecture.jpg) center fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 8em 0;
 }
 
 /* ----------------------------------------------------
@@ -113,6 +233,51 @@ body {
   height: 2px;
   background: #333;
 }
+
+/* ----------------------------------------------------
+  4) SLIDER STYLES
+------------------------------------------------------- */
+
+.header-carousel{
+  background-color: #282828;
+}
+.header-carousel-caption{
+  z-index: 1;
+}
+.header-carousel .item{
+  height: 400px;
+}
+.header-carousel img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+}
+/* carrousel fade effect */
+.carousel-fade .carousel-inner .item{
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active{
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right{
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right{
+  opacity: 1;
+}
+.carousel-fade .carousel-control{
+  z-index: 2;
+}
+/* end carrousel fade effect */
 
 /* ----------------------------------------------------
   RESPONSIVE STYLES
