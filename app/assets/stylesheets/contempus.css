@@ -330,7 +330,7 @@ figure {
   margin: 2px;
   min-width: 280px;
   max-width: 280px;
-  max-height: 360px;
+  max-height: 220px;
   text-align: center;
   cursor: pointer;
 }
