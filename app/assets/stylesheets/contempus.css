@@ -315,6 +315,10 @@ a:hover, a:focus {
   border: #ff6747 solid 2px;
 }
 
+/*.portfolio-container {
+  border: solid 2px;
+}
+*/
 /* ----------------------------------------------------
   BUBBA EFFECT
 ------------------------------------------------------- */
@@ -323,11 +327,10 @@ figure {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 0px;
-  min-width: 100%;
-  max-width: 100%;
+  margin: 2px;
+  min-width: 280px;
+  max-width: 280px;
   max-height: 360px;
-  width: 48%;
   text-align: center;
   cursor: pointer;
 }
@@ -408,7 +411,7 @@ figure.effect-bubba a {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
   transform: translate3d(0,20px,0);
-  color:#fff !important;
+  color:#282828 !important;
   font-size:14px;
   z-index:100;
 }
