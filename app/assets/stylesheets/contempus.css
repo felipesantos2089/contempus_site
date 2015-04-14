@@ -291,135 +291,33 @@ a:hover, a:focus {
   6) PORTFOLIO STYLES
 ------------------------------------------------------- */
 
-#filters {
-  margin-top: 10px;
-  margin-bottom: 40px;
-  text-align: center;
-  display: block;
-  float: none;
-  z-index: 2;
-  position: relative;
-}
-
-#filters ul li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-#filters ul li a {
-  display: block;
-}
-
-#filters ul li a h5 {
+.portfolio-filter a { 
   background: none repeat scroll 0 0 #f7f7f7;
+  border-radius: 3px;
   display: inline-block;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  line-height: 15px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
   margin-bottom: 5px;
-  padding: 10px 22px;
+  padding: 10px 20px;
   text-transform: uppercase;
+  background: #fff;
+  border: #454545 solid 2px;
+  color: #313131;
+  letter-spacing: 0.1em;
   transition: all 0.3s ease-in-out 0s;
-  background: #fff;
-  border: #282828 solid 1px;
-  color: #282828;
 }
 
-#filters ul li a:hover h5, #filters ul li a.active h5 {
+.portfolio-filter a.current { 
   background: #fff;
-  color: #ff5733;
   text-decoration: none;
-  border: #ff5733 solid 1px;
+  color: #ff5733;
+  border: #ff6747 solid 2px;
 }
 
-.grid {
-  position: relative;
-  margin: 0 auto;
-  padding: 1em 0 4em;
-  max-width: 1000px;
-  list-style: none;
-  text-align: center;
-}
-
-/* Common style */
-.grid figure {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
-  max-height: 360px;
-  width: 48%;
-  text-align: center;
-  cursor: pointer;
-}
-
-.grid figure img {
-  position: relative;
-  display: block;
-  min-height: 100%;
-  max-width: 100%;
-  opacity: 0.8;
-}
-
-.grid figure figcaption {
-  padding: 2em;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 1.25em;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-  pointer-events: none;
-}
-
-.grid figure figcaption,
-.grid figure figcaption > a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-  z-index: 1000;
-  text-indent: 200%;
-  white-space: nowrap;
-  font-size: 0;
-  opacity: 0;
-}
-
-.grid figure h2 {
-  word-spacing: -0.15em;
-  font-weight: 300;
-}
-
-.grid figure h2 span {
-  font-weight: 800;
-}
-
-.grid figure h2,
-.grid figure p {
-  margin: 0;
-  color: #191919;
-}
-
-.grid figure p {
-  letter-spacing: 1px;
-  font-size: 68.5%;
-}
-
-/*---------------*/
-/***** Bubba *****/
-/*---------------*/
-
+/* ----------------------------------------------------
+  BUBBA EFFECT
+------------------------------------------------------- */
 
 figure {
   position: relative;
@@ -529,46 +427,37 @@ figure.effect-bubba:hover a {
   transform: translate3d(0,0,0);
 }
 
+
+/* ----------------------------------------------------
+  Isotope
+------------------------------------------------------- */
+
 .isotope-item {
-  z-index: 2;
+    z-index: 2;
 }
-
 .isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
+    pointer-events: none;
+    z-index: 1;
 }
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
 
-.isotope, .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
-    -ms-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
-
 .isotope {
     -webkit-transition-property: height, width;
     -moz-transition-property: height, width;
-    -ms-transition-property: height, width;
-    -o-transition-property: height, width;
     transition-property: height, width;
 }
-
 .isotope .isotope-item {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
-    -ms-transition-property: -ms-transform, opacity;
-    -o-transition-property: -o-transform, opacity;
     transition-property: transform, opacity;
 }
 
-.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
-    -webkit-transition-duration: 0s;
-    -moz-transition-duration: 0s;
-    -ms-transition-duration: 0s;
-    -o-transition-duration: 0s;
-    transition-duration: 0s;
-}
 
 /* ----------------------------------------------------
   RESPONSIVE STYLES
