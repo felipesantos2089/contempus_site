@@ -12,4 +12,9 @@
 //
 //= require jquery.min
 //= require bootstrap.min
+//= require jquery.nav
+//= require jquery.easing.1.3
+//= require jquery.isotope
+//= require wow
+//= require custom
 //= require_tree .
