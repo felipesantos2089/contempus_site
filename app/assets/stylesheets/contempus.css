@@ -315,10 +315,21 @@ a:hover, a:focus {
   border: #ff6747 solid 2px;
 }
 
-/*.portfolio-container {
-  border: solid 2px;
-  text-align: center;
-}*/
+.portfolio-container .col-md-3 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.portfolio-inner{
+  position: relative;
+  padding: 0;
+  overflow: hidden; 
+}
+.portfolio-inner > img, .portfolio-inner > a img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* ----------------------------------------------------
   BUBBA EFFECT
