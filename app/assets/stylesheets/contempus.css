@@ -317,8 +317,9 @@ a:hover, a:focus {
 
 /*.portfolio-container {
   border: solid 2px;
-}
-*/
+  text-align: center;
+}*/
+
 /* ----------------------------------------------------
   BUBBA EFFECT
 ------------------------------------------------------- */
@@ -327,13 +328,15 @@ figure {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 2px;
-  min-width: 280px;
-  max-width: 280px;
-  max-height: 220px;
+  /*border: solid 2px;*/
+  margin: 10px;
+  min-width: 264px;
+  max-width: 264px;
+  max-height: 210px;
   text-align: center;
   cursor: pointer;
 }
+
 
 figure figcaption, figure figcaption > a {
   position: absolute;
@@ -474,7 +477,7 @@ figure.effect-bubba:hover a {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   .carousel-caption {top: 15%;}
-  .carousel-caption h1 {font-size: 50px;}
+  .carousel-caption h1 {font-size: 30px;}
   .dropdown-menu li:hover .sub-menu {visibility:visible;}
   .dropdown:hover .dropdown-menu {display: block;}
 }
@@ -482,10 +485,14 @@ figure.effect-bubba:hover a {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   .carousel-caption {top: 15%;}
-  .carousel-caption h1 {font-size: 50px;}
+  .carousel-caption h1 {font-size: 30px;}
 }
 
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {background-color: #f2f2f2; text-align:center;}
   html {position: relative; min-height: 100%; border: none;}
+}
+
+@media (max-width: 480px) {
+  figure {min-width: 100%;max-width: 100%;max-height: 100%;}
 }
