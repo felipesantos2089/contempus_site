@@ -320,77 +320,21 @@ a:hover, a:focus {
   padding-left: 0;
 }
 
-.portfolio-inner {
-  position: relative;
-  padding: 0;
-  overflow: hidden; 
-}
-
-.portfolio-inner > img, .portfolio-inner > a img, .portfolio-caption > img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.portfolio-inner .portfolio-caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(40,40,40,0.7);   
-  -webkit-transition: all .4s ease-in-out;
-  -moz-transition: all .4s ease-in-out;
-  -ms-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-  visibility: hidden;
-  opacity: 0; 
-}
-
-.portfolio-inner:hover .portfolio-caption, .portfolio-inner:focus .portfolio-caption {
-  visibility: visible;
-  opacity: 1;
-}
-
-.portfolio-caption i {
-  color: #ff5733;
-}
-
-.portfolio-caption h3 {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-
-.portfolio-caption {
-  color: #fff;
-  text-align: center;
-}
-
-.portfolio-details {
-  position: absolute;
-  width: 100%;
-  top: 20%;
-}
-
 /* ----------------------------------------------------
   BUBBA EFFECT
 ------------------------------------------------------- */
 
 figure {
   position: relative;
-  float: left;
+  padding: 0;
   overflow: hidden;
-  /*border: solid 2px;*/
-  margin: 10px;
-  min-width: 264px;
-  max-width: 264px;
-  max-height: 210px;
-  text-align: center;
-  cursor: pointer;
 }
 
+figure > img, figcaption > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 figure figcaption, figure figcaption > a {
   position: absolute;
@@ -402,14 +346,12 @@ figure figcaption, figure figcaption > a {
 
 figure figcaption {
   padding: 2em;
-  color: #fff;
   text-transform: uppercase;
   font-size: 1.25em;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
-figure.effect-bubba { 
+figure.effect-bubba {
+  background: #000;
 }
 
 figure.effect-bubba img {
@@ -436,23 +378,23 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-  border-top: 1px solid #282828;
-  border-bottom: 1px solid #282828;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
   -webkit-transform: scale(0,1);
   transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
-  border-right: 1px solid #282828;
-  border-left: 1px solid #282828;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
   -webkit-transform: scale(1,0);
   transform: scale(1,0);
 }
 
 figure.effect-bubba h2 {
   font-size:20px;
-  padding-top: 30%;
-  color:#282828;
+  padding-top: 25%;
+  color:#fff;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0,-20px,0);
@@ -461,14 +403,14 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba a {
-  top: 30%;
+  top: 25%;
   padding: 20px 2.5em;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
   transform: translate3d(0,20px,0);
-  color:#282828 !important;
+  color:#fff !important;
   font-size:14px;
   z-index:100;
 }
