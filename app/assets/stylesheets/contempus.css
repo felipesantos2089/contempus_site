@@ -320,15 +320,58 @@ a:hover, a:focus {
   padding-left: 0;
 }
 
-.portfolio-inner{
+.portfolio-inner {
   position: relative;
   padding: 0;
   overflow: hidden; 
 }
-.portfolio-inner > img, .portfolio-inner > a img {
+
+.portfolio-inner > img, .portfolio-inner > a img, .portfolio-caption > img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.portfolio-inner .portfolio-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(40,40,40,0.7);   
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  visibility: hidden;
+  opacity: 0; 
+}
+
+.portfolio-inner:hover .portfolio-caption, .portfolio-inner:focus .portfolio-caption {
+  visibility: visible;
+  opacity: 1;
+}
+
+.portfolio-caption i {
+  color: #ff5733;
+}
+
+.portfolio-caption h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.portfolio-caption {
+  color: #fff;
+  text-align: center;
+}
+
+.portfolio-details {
+  position: absolute;
+  width: 100%;
+  top: 20%;
 }
 
 /* ----------------------------------------------------
