@@ -244,16 +244,21 @@ a:hover, a:focus {
   z-index: 1;
 }
 
-.header-carousel .item {
-  height: 400px;
+.header-carousel .item img {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
 }
 
-.header-carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 400px;
-}
+/*.header-carousel img {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}*/
 
 /* carrousel fade effect */
 .carousel-fade .carousel-inner .item {
