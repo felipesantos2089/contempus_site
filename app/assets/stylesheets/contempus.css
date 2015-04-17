@@ -34,22 +34,29 @@ Table of Contents:
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color: #282828;
-  /*color: #2e2e99;*/
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ff5733;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
   color: #282828;
-  /*color: #2e2e99;*/
   background-color: transparent;
 }
 
-.navbar-nav>li {
+.navbar-nav > li {
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+}
+
+.navbar-default .navbar-nav > li:focus {
   font-weight: 700;
-  font-size: 1em;
-  letter-spacing: 0.2em;
 }
 
 .navbar-toggle {
@@ -118,7 +125,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   color: #333;
   line-height: 1.6;   
-  background-color: #fff;
+  background-color: #f7f7f7;
   background-repeat: repeat;
 }
 
@@ -252,14 +259,6 @@ a:hover, a:focus {
   height: auto;
 }
 
-/*.header-carousel img {
-  position: relative;
-  padding: 0;
-  overflow: hidden;
-  max-width: 100%;
-  height: auto;
-}*/
-
 /* carrousel fade effect */
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -307,8 +306,8 @@ a:hover, a:focus {
   padding: 10px 20px;
   text-transform: uppercase;
   background: #fff;
-  border: #454545 solid 2px;
-  color: #313131;
+  border: #c0c0c0 solid 2px;
+  color: #898989;
   letter-spacing: 0.1em;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -316,8 +315,8 @@ a:hover, a:focus {
 .portfolio-filter a.current { 
   background: #fff;
   text-decoration: none;
-  color: #ff5733;
-  border: #ff6747 solid 2px;
+  color: #282828;
+  border: #3d3d3d solid 2px;
 }
 
 .portfolio-container .col-md-3 {
@@ -383,15 +382,15 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
   -webkit-transform: scale(0,1);
   transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
-  border-right: 1px solid #fff;
-  border-left: 1px solid #fff;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
   -webkit-transform: scale(1,0);
   transform: scale(1,0);
 }
@@ -399,7 +398,7 @@ figure.effect-bubba figcaption::after {
 figure.effect-bubba h2 {
   font-size:20px;
   padding-top: 25%;
-  color:#fff;
+  color:#e5e5e5;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0,-20px,0);
@@ -415,7 +414,7 @@ figure.effect-bubba a {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
   transform: translate3d(0,20px,0);
-  color:#fff !important;
+  color:#e5e5e5 !important;
   font-size:14px;
   z-index:100;
 }
@@ -490,7 +489,7 @@ figure.effect-bubba:hover a {
 }
 
 @media (max-width: 767px) {
-  .navbar-nav .open .dropdown-menu {background-color: #f2f2f2; text-align:center;}
+  .navbar-nav .open .dropdown-menu {background-color: #f7f7f7; text-align:center;}
   html {position: relative; min-height: 100%; border: none;}
 }
 
