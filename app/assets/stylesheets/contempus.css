@@ -141,7 +141,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
-  color:#ff5733;
+  color: #ff5733;
 }
 
 .general-title h2 {
@@ -150,7 +150,7 @@ a:hover, a:focus {
   font-size: 31px;
   text-transform: uppercase;
   text-align: center;
-  color: #333;
+  color: #282828;
 }
 
 .title-devider {
@@ -350,15 +350,10 @@ a:hover, a:focus {
   6) CONTATO
 ------------------------------------------------------- */
 
-.contato {
+#contato {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-/*.contato-div {
-  background-color: #282828;
-  padding: 10px;
-}*/
 
 
 /* ----------------------------------------------------
