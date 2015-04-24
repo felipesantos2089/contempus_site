@@ -6,34 +6,117 @@
 /*@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700);*/
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700);
 
-/*
----------------
-Table of Contents:
 
-1) Bootstrap Override
-2) General Styles
-3) Header
-4) Slider
-5) Site Wrapper
-6) Projects
-7) Blog
-8) About
-9) Contact
-10) Footer
-11) Responsive
---------------
-*/
+/* ------------------------------------------------------------------
+1) GERAL
+2) HEADER / MENU
+3) BOTÃO
+4) SLIDER
+5) SERVIÇOS
+6) PORTFOLIO
+7) EQUIPE
+8) CONTATO
+9) FOOTER
+10) BUBBA EFFECT
+11) ISOTOPE
+12) RESPONSIVIDADE
+------------------------------------------------------------------ */
 
-/* ----------------------------------------------------
-  1) BOOTSTRAP OVERRIDE
-------------------------------------------------------- */
+
+/* ------------------------------------------------------------------
+  1) GERAL
+------------------------------------------------------------------ */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #333;
+  line-height: 1.6;   
+  background-color: #f7f7f7;
+  background-repeat: repeat;
+}
+
+a { 
+  color:#c0c0c0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none; 
+  -webkit-transition: background-color .2s linear, color .2s linear;
+  -moz-transition: background-color .2s linear, color .2s linear;
+  -o-transition: background-color .2s linear, color .2s linear;
+  -ms-transition: background-color .2s linear, color .2s linear;
+  transition: background-color .2s linear, color .2s linear;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #ff5733;
+}
+
+.general-title h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #282828;
+}
+
+.title-devider {
+  border-bottom: 2px solid #191919;
+  display: block;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.padding-top {
+  padding-top: 30px;
+}
+
+.padding-bottom {
+  padding-bottom: 30px;
+}
+
+.glyphicon-3x {
+  font-size: 2.7em;
+}
+
+.highlight-info {
+  background: url(/assets/modern_architecture.jpg) center fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 8em 0;
+}
+
+
+
+
+/* ------------------------------------------------------------------
+  2) HEADER / MENU
+------------------------------------------------------------------ */
+
+.header {
+  background-color: #fff;
+  border-color: transparent;
+  border-radius: 0;
+  min-height: 90px;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow:    0px 2px 2px 0px rgba(50, 50, 50, 0.4);
+  box-shadow:         0px 2px 2px 0px rgba(50, 50, 50, 0.4);
+}
 
 .navbar-nav {
-  padding-top: 35px;
+  padding-top: 25px;
 }
 
 .navbar-brand {
-  padding: 18px;    
+  padding-top: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -89,6 +172,14 @@ Table of Contents:
   box-shadow: none;
 }
 
+
+
+
+/* ------------------------------------------------------------------
+  3) BOTÃO
+------------------------------------------------------------------ */
+
+
 .btn {
   border-radius: 0px;
   border: solid 2px;
@@ -105,85 +196,6 @@ Table of Contents:
   -ms-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-}
-
-.carousel-caption h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-}
-.carousel-caption {
-  top: 25%;
-  text-shadow: 2px;
-}
-
-/* ----------------------------------------------------
-  2) GENERAL STYLE
-------------------------------------------------------- */
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  font-family: 'Josefin Sans', sans-serif;
-  color: #333;
-  line-height: 1.6;   
-  background-color: #f7f7f7;
-  background-repeat: repeat;
-}
-
-a { 
-  color:#c0c0c0;
-  padding: 0;
-  margin: 0;
-  text-decoration: none; 
-  -webkit-transition: background-color .2s linear, color .2s linear;
-  -moz-transition: background-color .2s linear, color .2s linear;
-  -o-transition: background-color .2s linear, color .2s linear;
-  -ms-transition: background-color .2s linear, color .2s linear;
-  transition: background-color .2s linear, color .2s linear;
-}
-
-a:hover, a:focus {
-  text-decoration: none;
-  color: #ff5733;
-}
-
-.general-title h2 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
-  font-size: 31px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #282828;
-}
-
-.title-devider {
-  border-bottom: 2px solid #191919;
-  display: block;
-  width: 150px;
-  margin: auto;
-  margin-bottom: 40px;
-}
-
-.service-title h3 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
-  color: #282828;
-  text-transform: uppercase;
-  font-weight: 700; 
-}
-
-.padding-top {
-  padding-top: 30px;
-}
-
-.padding-bottom {
-  padding-bottom: 30px;
 }
 
 .white-btn {
@@ -210,43 +222,15 @@ a:hover, a:focus {
   border-color: #ff5733;
 }
 
-.glyphicon-3x {
-  font-size: 2.7em;
-}
 
-.highlight-info {
-  background: url(/assets/modern_architecture.jpg) center fixed;
-  background-size: cover;
-  color: #fff;
-  padding: 8em 0;
-}
 
-/* ----------------------------------------------------
-  3) HEADER
-------------------------------------------------------- */
-
-.header {
-  background-color: #fff;
-  border-color: transparent;
-  border-radius: 0;
-  min-height: 100px;
-  margin-bottom: 0;
-}
-
-.hr-menu {
-  display: block;
-  margin-top: 0px;
-  border: 0;
-  height: 2px;
-  background: #333;
-}
-
-/* ----------------------------------------------------
-  4) SLIDER STYLES
-------------------------------------------------------- */
+/* ------------------------------------------------------------------
+  4) SLIDER
+------------------------------------------------------------------ */
 
 .header-carousel {
   background-color: #282828;
+  padding-top: 90px;
 }
 
 .header-carousel-caption {
@@ -261,7 +245,18 @@ a:hover, a:focus {
   height: auto;
 }
 
-/* carrousel fade effect */
+.carousel-caption h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.carousel-caption {
+  top: 25%;
+  text-shadow: 2px;
+}
+
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -289,17 +284,28 @@ a:hover, a:focus {
 .carousel-fade .carousel-control {
   z-index: 2;
 }
-/* end carrousel fade effect */
 
 
-/* ----------------------------------------------------
-  SERVIÇOS
-------------------------------------------------------- */
 
 
-/* ----------------------------------------------------
+/* ------------------------------------------------------------------
+  5) SERVIÇOS
+------------------------------------------------------------------ */
+
+.service-title h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: #282828;
+  text-transform: uppercase;
+  font-weight: 700; 
+}
+
+
+
+
+/* ------------------------------------------------------------------
   6) PORTFOLIO
-------------------------------------------------------- */
+------------------------------------------------------------------ */
 
 .portfolio-filter a { 
   background: none repeat scroll 0 0 #f7f7f7;
@@ -330,9 +336,9 @@ a:hover, a:focus {
 }
 
 
-/* ----------------------------------------------------
-  6) EQUIPE STYLES
-------------------------------------------------------- */
+/* ------------------------------------------------------------------
+  7) EQUIPE
+------------------------------------------------------------------ */
 
 .equipe-membro {
   text-align: center;
@@ -358,9 +364,11 @@ a:hover, a:focus {
 }
 
 
-/* ----------------------------------------------------
-  6) CONTATO
-------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------
+  8) CONTATO
+------------------------------------------------------------------ */
 
 #contato {
   padding-top: 50px;
@@ -368,9 +376,11 @@ a:hover, a:focus {
 }
 
 
-/* ----------------------------------------------------
-  FOOTER
-------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------
+  9) FOOTER
+------------------------------------------------------------------ */
 
 #footer {
   position: absolute;
@@ -381,9 +391,12 @@ a:hover, a:focus {
   color: #b6b6b6;
 }
 
-/* ----------------------------------------------------
-  BUBBA EFFECT
-------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------
+  10) BUBBA EFFECT
+------------------------------------------------------------------ */
 
 figure {
   position: relative;
@@ -491,9 +504,11 @@ figure.effect-bubba:hover a {
 }
 
 
-/* ----------------------------------------------------
-  Isotope
-------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------
+  11) ISOTOPE
+------------------------------------------------------------------ */
 
 .isotope-item {
     z-index: 2;
@@ -522,9 +537,9 @@ figure.effect-bubba:hover a {
 }
 
 
-/* ----------------------------------------------------
-  RESPONSIVE STYLES
-------------------------------------------------------- */
+/* ------------------------------------------------------------------
+  12) RESPONSIVIDADE
+------------------------------------------------------------------ */
 
 @media only screen and (min-width : 1224px) {
   .dropdown-menu li:hover .sub-menu {visibility:visible;}
