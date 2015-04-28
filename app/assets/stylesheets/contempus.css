@@ -39,7 +39,7 @@ body {
   font-family: 'Cabin', sans-serif;
   color: #333;
   line-height: 1.6;   
-  background-color: #f7f7f7;
+  background-color: #fff;
   background-repeat: repeat;
 }
 
@@ -298,7 +298,8 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 #servicos {
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 #servicos .row {
@@ -321,11 +322,13 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 #portfolio {
-  padding-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #f1f1f1;
 }
 
 .portfolio-filter a { 
-  background: none repeat scroll 0 0 #f7f7f7;
+  background: none repeat scroll 0 0 #f1f1f1;
   display: inline-block;
   font-weight: 300;
   font-size: 12px;
@@ -333,18 +336,10 @@ a:hover, a:focus {
   margin-bottom: 5px;
   padding: 10px 20px;
   text-transform: uppercase;
-  background: #fff;
   color: #3d3d3d;
   border: #282828 solid 2px;
   transition: all 0.3s ease-in-out 0s;
 }
-
-/*.portfolio-filter a:hover { 
-  text-decoration: none;
-  background: #fff;
-  color: #ff5733;
-  border: #282828 solid 2px;
-}*/
 
 .portfolio-filter a.current { 
   text-decoration: none;
@@ -364,7 +359,8 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 #equipe {
-  padding-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 #equipe .row {
@@ -400,8 +396,9 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 #contato {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #f1f1f1;
 }
 
 
@@ -590,7 +587,7 @@ figure.effect-bubba:hover a {
 }
 
 @media (max-width: 767px) {
-  .navbar-nav .open .dropdown-menu {background-color: #f7f7f7; text-align:center;}
+  .navbar-nav .open .dropdown-menu {background-color: #f1f1f1; text-align:center;}
   html {position: relative; min-height: 100%; border: none;}
 }
 
