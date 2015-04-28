@@ -6,6 +6,8 @@
 /*@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700);*/
 @import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700);
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
 
 
 /* ------------------------------------------------------------------
@@ -68,12 +70,13 @@ a:hover, a:focus {
   color: #282828;
 }
 
-.title-devider {
-  border-bottom: 2px solid #191919;
+ hr {
   display: block;
-  width: 150px;
-  margin: auto;
-  margin-bottom: 40px;
+  height: 1px;
+  width: 400px;
+  border: 0;
+  border-top: 2px solid #282828;
+  padding: 0;
 }
 
 .padding-top {
@@ -327,15 +330,23 @@ a:hover, a:focus {
   display: inline-block;
   font-weight: 700;
   font-size: 11px;
+  letter-spacing: 0.1em;
   line-height: 15px;
   margin-bottom: 5px;
   padding: 10px 20px;
   text-transform: uppercase;
   background: #fff;
-  border: #c0c0c0 solid 2px;
-  color: #898989;
-  letter-spacing: 0.1em;
+  color: #282828;
+  border: #3d3d3d solid 2px;
   transition: all 0.3s ease-in-out 0s;
+}
+
+.portfolio-filter a:hover { 
+  background: #fff;
+  opacity: 0.5;
+  text-decoration: none;
+  color: #282828;
+  border: #3d3d3d solid 2px;
 }
 
 .portfolio-filter a.current { 
