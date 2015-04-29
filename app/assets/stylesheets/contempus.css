@@ -14,11 +14,12 @@
 5) SERVIÇOS
 6) PORTFOLIO
 7) EQUIPE
-8) CONTATO
-9) FOOTER
-10) BUBBA EFFECT
-11) ISOTOPE
-12) RESPONSIVIDADE
+8) CONTADOR
+9) CONTATO
+10) FOOTER
+11) BUBBA EFFECT
+12) ISOTOPE
+13) RESPONSIVIDADE
 ------------------------------------------------------------------ */
 
 
@@ -90,14 +91,6 @@ hr {
 .glyphicon-3x {
   font-size: 2.7em;
 }
-
-.highlight-info {
-  background: url(/assets/modern_architecture.jpg) center fixed;
-  background-size: cover;
-  color: #fff;
-  padding: 8em 0;
-}
-
 
 
 
@@ -243,7 +236,6 @@ hr {
 }
 
 .carousel-caption h1 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 700;
   font-size: 45px;
   letter-spacing: 5px;
@@ -365,7 +357,28 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  8) CONTATO
+  8) CONTADOR
+------------------------------------------------------------------ */
+
+.highlight-info {
+  background: url(/assets/modern_architecture.jpg) center fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 10em 0;
+}
+
+#contador h4 {
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* ------------------------------------------------------------------
+  9) CONTATO
 ------------------------------------------------------------------ */
 
 #contato {
@@ -378,7 +391,7 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  9) FOOTER
+  10) FOOTER
 ------------------------------------------------------------------ */
 
 #footer {
@@ -405,7 +418,7 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  10) BUBBA EFFECT
+  11) BUBBA EFFECT
 ------------------------------------------------------------------ */
 
 figure {
@@ -517,7 +530,7 @@ figure.effect-bubba:hover a {
 
 
 /* ------------------------------------------------------------------
-  11) ISOTOPE
+  12) ISOTOPE
 ------------------------------------------------------------------ */
 
 .isotope-item {
@@ -548,7 +561,7 @@ figure.effect-bubba:hover a {
 
 
 /* ------------------------------------------------------------------
-  12) RESPONSIVIDADE
+  13) RESPONSIVIDADE
 ------------------------------------------------------------------ */
 
 @media only screen and (min-width : 1224px) {}
@@ -577,14 +590,6 @@ figure.effect-bubba:hover a {
   .top-nav-collapse {
     padding: 0;
   }
-
-/*  .navbar-default.navbar-shrink {
-    background-color: #282828;
-  }
-
-  .navbar-default.navbar-shrink .navbar-nav>li>a {
-    color: #f1f1f1;
-  }*/
 
   .navbar-default.navbar-shrink .navbar-brand img {
     padding-top: 5px;
