@@ -14,6 +14,7 @@
 //= require bootstrap.min
 //= require jquery.nav
 //= require jquery.easing.1.3
+//= require scrolling-nav
 //= require jquery.isotope.min
 //= require wow
 //= require custom
