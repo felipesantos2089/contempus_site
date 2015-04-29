@@ -1,11 +1,7 @@
 
-/*@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);*/
-/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);*/
-/*@import url(http://fonts.googleapis.com/css?family=Share+Tech);*/
 /*@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);*/
-/*@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700);*/
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700);
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,700);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700);*/
+/*@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700);*/
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
 
@@ -36,23 +32,37 @@ html {
 }
 
 body {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #333;
-  line-height: 1.6;   
-  background-color: #fff;
-  background-repeat: repeat;
+  line-height: 1.5;
+}
+
+.titulo h2 {
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #282828;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #282828;
 }
 
 p {
   color: #4c4c4c;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 a { 
-  color:#c0c0c0;
   padding: 0;
   margin: 0;
-  text-decoration: none; 
+  text-decoration: none;
   -webkit-transition: background-color .2s linear, color .2s linear;
   -moz-transition: background-color .2s linear, color .2s linear;
   -o-transition: background-color .2s linear, color .2s linear;
@@ -60,22 +70,7 @@ a {
   transition: background-color .2s linear, color .2s linear;
 }
 
-a:hover, a:focus {
-  text-decoration: none;
-  color: #ff5733;
-}
-
-.titulo h2 {
-  font-family: 'Cabin', sans-serif;
-  font-weight: 300;
-  font-size: 30px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #282828;
-}
-
- hr {
+hr {
   display: block;
   height: 1px;
   width: 400px;
@@ -129,9 +124,8 @@ a:hover, a:focus {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  color: #282828;
+  color: #ff5733;
   background-color: transparent;
-  font-weight: 700;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -143,20 +137,13 @@ a:hover, a:focus {
   background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:focus {
-  color: #282828;
-  background-color: transparent;
-}
-
 .navbar-nav > li > a {
-  font-size: 14px;
   text-transform: uppercase;
-  font-family: 'Cabin', sans-serif;
-  font-weight: 300;
-}
-
-.navbar-default .navbar-nav > li:focus {
-  font-weight: 700;
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #333;
 }
 
 .navbar-toggle {
@@ -191,16 +178,16 @@ a:hover, a:focus {
 
 
 .btn {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
   border-radius: 0px;
   border: solid 2px;
-  text-decoration: none;
   padding: 7px 25px;
-  font-size: 12px;
   line-height: 30px;
-  text-transform: uppercase;
-  font-family: 'Cabin', sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
@@ -256,12 +243,15 @@ a:hover, a:focus {
 }
 
 .carousel-caption h1 {
-  font-family: 'Cabin', sans-serif;
-  font-size: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   margin-bottom: 50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
 }
+
 .carousel-caption {
   top: 25%;
   text-shadow: 2px;
@@ -311,14 +301,6 @@ a:hover, a:focus {
   padding-top: 60px;
 }
 
-#servicos h3 {
-  font-family: 'Cabin', sans-serif;
-  font-size: 18px;
-  color: #282828;
-  text-transform: uppercase;
-  font-weight: 700; 
-}
-
 
 
 
@@ -336,11 +318,12 @@ a:hover, a:focus {
   background: none repeat scroll 0 0 #f1f1f1;
   display: inline-block;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   line-height: 15px;
   margin-bottom: 5px;
   padding: 10px 20px;
-  text-transform: uppercase;
   color: #282828;
   border: #282828 solid 2px;
   transition: all 0.3s ease-in-out 0s;
@@ -378,21 +361,6 @@ a:hover, a:focus {
   border-color: #fff;
 }
 
-.equipe-membro h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-.equipe-membro p {
-  margin-top: 5px;
-  color: #555;
-  font-size: 16px;
-    letter-spacing: 1px;
-}
-
 
 
 
@@ -418,10 +386,21 @@ a:hover, a:focus {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 10px;
-  background-color: #282828;
-  color: #b6b6b6;
+  background-color: #3d3d3d;
 }
 
+#footer p {
+  color: #f7f7f7;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+#footer a:hover, a:focus {
+  color: #ff5733;
+}
 
 
 
@@ -497,7 +476,7 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-  font-size:20px;
+  font-size: 20px;
   padding-top: 25%;
   color:#e5e5e5;
   -webkit-transition: -webkit-transform 0.35s;
