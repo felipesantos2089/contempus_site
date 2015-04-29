@@ -43,6 +43,11 @@ body {
   background-repeat: repeat;
 }
 
+p {
+  color: #4c4c4c;
+  font-size: 15px;
+}
+
 a { 
   color:#c0c0c0;
   padding: 0;
@@ -109,19 +114,18 @@ a:hover, a:focus {
   background-color: #fff;
   border-color: transparent;
   border-radius: 0;
-  /*min-height: 100px;*/
   margin-bottom: 0;
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.4);
-  -moz-box-shadow:    0px 2px 2px 0px rgba(50, 50, 50, 0.4);
-  box-shadow:         0px 2px 2px 0px rgba(50, 50, 50, 0.4);
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow:    0px 1px 1px 0px rgba(50, 50, 50, 0.4);
+  box-shadow:         0px 1px 1px 0px rgba(50, 50, 50, 0.4);
 }
 
 .navbar-nav {
-  /*padding-top: 30px;*/
+  padding-top: 10px;
 }
 
 .navbar-brand {
-  /*padding-top: 25px;*/
+  padding-top: 5px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -156,15 +160,16 @@ a:hover, a:focus {
 }
 
 .navbar-toggle {
-  margin-top: 35px;
+  margin: 20px 0 15px;
 }
 
 .navbar-default .navbar-toggle {
-  border-color: transparent;
+  border: 1px solid #282828;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #282828;
+
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -234,7 +239,7 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 .header-carousel {
-  background-color: #282828;
+  background-color: #fff;
   padding-top: 90px;
 }
 
@@ -298,8 +303,8 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 #servicos {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #servicos .row {
@@ -322,8 +327,8 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 #portfolio {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #f1f1f1;
 }
 
@@ -359,8 +364,8 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 #equipe {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #equipe .row {
@@ -396,8 +401,8 @@ a:hover, a:focus {
 ------------------------------------------------------------------ */
 
 #contato {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #f1f1f1;
 }
 
@@ -567,30 +572,74 @@ figure.effect-bubba:hover a {
   12) RESPONSIVIDADE
 ------------------------------------------------------------------ */
 
-@media only screen and (min-width : 1224px) {
-  .dropdown-menu li:hover .sub-menu {visibility:visible;}
-  .dropdown:hover .dropdown-menu {display: block;}
-}
+@media only screen and (min-width : 1224px) {}
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-  .carousel-caption {top: 15%;}
-  .carousel-caption h1 {font-size: 30px;}
-  .dropdown-menu li:hover .sub-menu {visibility:visible;}
-  .dropdown:hover .dropdown-menu {display: block;}
+  
+  .carousel-caption {
+    top: 15%;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+  }
+
+/*  .navbar-default.navbar-shrink {
+    background-color: #282828;
+  }
+
+  .navbar-default.navbar-shrink .navbar-nav>li>a {
+    color: #f1f1f1;
+  }*/
+
+  .navbar-default.navbar-shrink .navbar-brand img {
+    padding-top: 5px;
+    max-height: 50px;
+  }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  .carousel-caption {top: 15%;}
-  .carousel-caption h1 {font-size: 30px;}
-}
-
-@media (max-width: 767px) {
-  .navbar-nav .open .dropdown-menu {background-color: #f1f1f1; text-align:center;}
-  html {position: relative; min-height: 100%; border: none;}
+  
+  .carousel-caption {
+    top: 5px;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 18px;
+  }
+  
+  figure {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .navbar-brand img {
+    padding-top: 5px;
+  }
 }
 
 @media (max-width: 480px) {
-  figure {min-width: 100%;max-width: 100%;max-height: 100%;}
+  
+  figure {
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }

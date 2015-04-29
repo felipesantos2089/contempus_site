@@ -12,10 +12,10 @@
 //
 //= require jquery.min
 //= require bootstrap.min
-//= require jquery.nav
 //= require jquery.easing.1.3
+//= require classie
+//= require animated-header
 //= require scrolling-nav
 //= require jquery.isotope.min
 //= require wow
-//= require custom
 //= require_tree .

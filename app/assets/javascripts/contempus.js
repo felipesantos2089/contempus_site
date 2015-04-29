@@ -1,3 +1,6 @@
+/**
+* Filtro do Portfolio
+*/
 $(window).load(function(){
     var $container = $('.portfolio-container');
     $container.isotope({

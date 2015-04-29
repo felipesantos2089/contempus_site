@@ -14,6 +14,5 @@
  *= require bootstrap.min
  *= require font-awesome.min
  *= require animate
- *= require scrolling-nav
  *= require_tree .
  */
