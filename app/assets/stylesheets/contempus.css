@@ -117,7 +117,7 @@ hr {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  color: #ff5733;
+  color: #f1684e;
   background-color: transparent;
 }
 
@@ -126,7 +126,7 @@ hr {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #ff5733;
+  color: #f1684e;
   background-color: transparent;
 }
 
@@ -196,8 +196,8 @@ hr {
 
 .white-btn:hover {
   background-color: transparent;
-  color: #ff5733;
-  border-color: #ff5733;
+  color: #f1684e;
+  border-color: #f1684e;
 }
 
 .black-btn { 
@@ -361,18 +361,24 @@ hr {
 ------------------------------------------------------------------ */
 
 .highlight-info {
-  background: url(/assets/modern_architecture.jpg) center fixed;
+  background: url(/assets/arquitetura.jpg) center fixed;
   background-size: cover;
-  color: #fff;
-  padding: 10em 0;
+  color: #f1f1f1;
+  padding: 12em 0;
+/*  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
 }
 
 #contador h4 {
-  font-weight: 300;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 25px;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
 }
+
+/*#contador i {
+  box-shadow: 3px 0px 3px rgba(255, 255, 255, 0.8);
+}*/
 
 
 
@@ -412,7 +418,7 @@ hr {
 }
 
 #footer a:hover, a:focus {
-  color: #ff5733;
+  color: #f1684e;
 }
 
 
