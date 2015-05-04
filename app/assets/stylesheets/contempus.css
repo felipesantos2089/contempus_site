@@ -314,7 +314,7 @@ hr {
 }
 
 .portfolio-filter a { 
-  background: none repeat scroll 0 0 #f1f1f1;
+  background: none repeat scroll 0 0;
   display: inline-block;
   font-weight: 300;
   font-size: 16px;
@@ -338,6 +338,16 @@ hr {
 .portfolio-container .col-md-3 {
   padding-right: 0;
   padding-left: 0;
+}
+
+.portfolio-title {
+  padding-top: 130px;
+  padding-bottom: 30px;
+  background-color: #f1f1f1;
+}
+
+.portfolio-section {
+
 }
 
 
