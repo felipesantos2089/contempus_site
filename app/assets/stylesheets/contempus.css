@@ -117,7 +117,10 @@ hr {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  color: #f1684e;
+  /*color: #f1684e;*/
+  text-decoration: underline;
+  font-weight: bold;
+  color: #333;
   background-color: transparent;
 }
 
@@ -126,7 +129,11 @@ hr {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #f1684e;
+  /*color: #f1684e;*/
+  text-decoration: underline;
+  /*font-weight: bold;*/
+  /*height: 45px;*/
+  color: #333;
   background-color: transparent;
 }
 
