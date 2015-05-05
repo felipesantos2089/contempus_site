@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root 'pages#index'
+
+  root 'pages#home'
 
   get 'portfolio' => "pages#portfolio", as: :portfolio
   
