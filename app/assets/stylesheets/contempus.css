@@ -618,6 +618,10 @@ figure.effect-bubba:hover a {
     padding-top: 5px;
     max-height: 50px;
   }
+
+  .navbar.navbar-shrink {
+    opacity: 0.9;
+  }
 }
 
 /* Landscape phone to portrait tablet */
