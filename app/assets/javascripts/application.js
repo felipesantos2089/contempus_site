@@ -16,7 +16,6 @@
 //= require classie
 //= require animated-header
 //= require scrolling-nav
-//= require page-scroll
 //= require jquery.isotope.min
 //= require wow
 //= require portfolio-filter
