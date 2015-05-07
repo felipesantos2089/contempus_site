@@ -378,25 +378,20 @@ hr {
 ------------------------------------------------------------------ */
 
 .highlight-info {
-  background: url(/assets/arquitetura.jpg) center fixed;
+  background: url(/assets/triangulos.jpg) center fixed;
   background-size: cover;
   color: #f1f1f1;
   padding: 12em 0;
-/*  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);*/
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 #contador h4 {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 2px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
 }
-
-/*#contador i {
-  box-shadow: 3px 0px 3px rgba(255, 255, 255, 0.8);
-}*/
-
 
 
 
