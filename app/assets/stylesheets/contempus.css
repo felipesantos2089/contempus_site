@@ -335,9 +335,8 @@ hr {
   border: #282828 solid 2px;
 }
 
-.portfolio-container .col-md-3 {
-  padding-right: 0;
-  padding-left: 0;
+.portfolio-container .col-md-4 {
+  padding: 10px;
 }
 
 .portfolio-title {
