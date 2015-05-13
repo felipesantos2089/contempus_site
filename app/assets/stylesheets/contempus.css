@@ -227,11 +227,7 @@ hr {
 
 .header-carousel {
   background-color: #fff;
-  padding-top: 90px;
-}
-
-.header-carousel-caption {
-  z-index: 1;
+  padding-top: 100px;
 }
 
 .header-carousel .item img {
@@ -339,16 +335,81 @@ hr {
   padding: 10px;
 }
 
-.portfolio-title {
+.portfolio-titulo {
   padding-top: 130px;
   padding-bottom: 30px;
   background-color: #f1f1f1;
 }
 
-.portfolio-section {
+.portfolio-secao {
+  padding-bottom: 150px;
+}
+
+.portfolio-item {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
+.portfolio-carousel {
+  background-color: #fff;
+}
+
+.portfolio-carousel .item img {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.projeto-info .info {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.projeto-info .info span {
+  font-weight: 400;
+}
+
+.projeto-info .tags {
+  margin: 20px 0 20px 0;
+}
+
+.projeto-info .tags ul {
+  padding: 0;
+  margin: 0;
+}
+
+.projeto-info .tags ul li {
+  padding: 5px;
+  display: inline-block;
+}
+
+.projeto-info .tags ul li i.fa {
+  width: 20px;
+}
+
+.projeto-info .tags ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #333;
+}
+
+.projeto-info .tags ul li a:hover {
+  border-bottom: 1px solid;
+}
+
+.projetos-relacionados {
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+.projetos-relacionados .titulo {
+  padding-bottom: 50px;
+}
 
 /* ------------------------------------------------------------------
   7) EQUIPE
@@ -400,7 +461,7 @@ hr {
 
 #contato {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 150px;
   background-color: #f1f1f1;
 }
 
@@ -416,6 +477,7 @@ hr {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 10px;
+  bottom: 0;
   background-color: #3d3d3d;
 }
 
