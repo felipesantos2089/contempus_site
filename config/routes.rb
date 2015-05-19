@@ -2,8 +2,8 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
-  get 'portfolio' => "pages#portfolio", as: :portfolio
-  get 'portfolio_item_1' => "pages#portfolio_item_1", as: :portfolio_item_1
+  get 'projetos' => "pages#projetos", as: :projetos
+  get 'projeto_1' => "pages#projeto_1", as: :projeto_1
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

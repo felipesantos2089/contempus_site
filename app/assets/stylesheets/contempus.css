@@ -12,7 +12,7 @@
 3) BOTÃO
 4) SLIDER
 5) SERVIÇOS
-6) PORTFOLIO
+6) PROJETOS
 7) EQUIPE
 8) CONTADOR
 9) CONTATO
@@ -305,16 +305,16 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  6) PORTFOLIO
+  6) PROJETOS
 ------------------------------------------------------------------ */
 
-#portfolio {
+#projetos {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #f1f1f1;
 }
 
-.portfolio-filter a { 
+.projetos-filtro a { 
   background: none repeat scroll 0 0;
   display: inline-block;
   font-weight: 400;
@@ -329,28 +329,28 @@ hr {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.portfolio-filter a.current { 
+.projetos-filtro a.current { 
   text-decoration: none;
   background: #282828;
   color: #fff;
   border: #282828 solid 2px;
 }
 
-.portfolio-container .col-md-4 {
+.projetos-container .col-md-4 {
   padding: 10px;
 }
 
-.portfolio-titulo {
+.projetos-titulo {
   padding-top: 130px;
   padding-bottom: 30px;
   background-color: #f1f1f1;
 }
 
-.portfolio-secao {
+.projetos-secao {
   padding-bottom: 150px;
 }
 
-.portfolio-item {
+.projetos-item {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -359,7 +359,7 @@ hr {
   background-color: #fff;
 }
 
-.portfolio-carousel .item img {
+.projetos-carousel .item img {
   position: relative;
   padding: 0;
   overflow: hidden;
@@ -407,8 +407,13 @@ hr {
   border-bottom: 1px solid;
 }
 
-.projetos-relacionados {
+.projeto-descricao {
   padding-top: 30px;
+  text-align: justify;
+}
+
+.projetos-relacionados {
+  padding-top: 100px;
   padding-bottom: 150px;
 }
 
