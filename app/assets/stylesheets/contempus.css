@@ -1,9 +1,8 @@
 
-/*@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:500,100,300,700,400);
-/*@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700);*/
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
-/*@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
 
 
 /* ------------------------------------------------------------------
@@ -33,9 +32,12 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  line-height: 1.5;
+  background: #fff;
+  color: #555;
+  font-family: 'Open Sans', Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.8;
 }
 
 .titulo h2 {
@@ -54,13 +56,6 @@ h3 {
   /*letter-spacing: 1px;*/
   text-transform: uppercase;
   color: #282828;
-}
-
-p {
-  color: #4c4c4c;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 1px;
 }
 
 a { 
