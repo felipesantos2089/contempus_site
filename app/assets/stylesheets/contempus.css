@@ -45,23 +45,22 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   line-height: 1.4;
   letter-spacing: 0.1em;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 15px;
   color: #000;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 h4 {
-  font-weight: 400;
-  font-size: 14px;
+  color: #555;
 }
 
 h5 {
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 13px;
+  color: #555;
 }
 
 a { 
@@ -310,7 +309,7 @@ hr {
 ------------------------------------------------------------------ */
 
 #projetos {
-  padding-top: 80px;
+  padding-top: 30px;
   padding-bottom: 80px;
   background-color: #fafafa;
 }
@@ -427,7 +426,7 @@ hr {
 ------------------------------------------------------------------ */
 
 #equipe {
-  padding-top: 80px;
+  padding-top: 30px;
   padding-bottom: 80px;
 }
 
@@ -472,7 +471,7 @@ hr {
 ------------------------------------------------------------------ */
 
 #contato {
-  padding-top: 80px;
+  padding-top: 30px;
   padding-bottom: 150px;
 }
 
