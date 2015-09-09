@@ -12,7 +12,7 @@
 4) SLIDER
 5) SERVIÇOS
 6) PROJETOS
-7) EQUIPE
+7) TEAM
 8) CONTADOR
 9) CONTATO
 10) FOOTER
@@ -52,12 +52,15 @@ body {
   letter-spacing: 0.1em;
 }
 
-.align-center {
-  text-align: center;
-}
-
 .subtitulo {
   padding: 30px 250px 50px;
+}
+
+.content-box-title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -104,11 +107,6 @@ hr {
 .glyphicon-3x {
   font-size: 2em;
 }
-
-.black {
-  color: #000;
-}
-
 
 
 /* ------------------------------------------------------------------
@@ -308,16 +306,11 @@ hr {
   padding-top: 60px;
 }
 
-.servico-titulo {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 14px;
-  color: #000;
-}
-
 #servicos i {
   color: #000;
 }
+
+
 
 /* ------------------------------------------------------------------
   6) PROJETOS
@@ -437,30 +430,43 @@ hr {
 }
 
 /* ------------------------------------------------------------------
-  7) EQUIPE
+  7) TEAM
 ------------------------------------------------------------------ */
 
-#equipe {
+#team {
   padding-top: 30px;
   padding-bottom: 80px;
 }
 
-#equipe .row {
+#team .row {
   padding-top: 30px;
 }
 
-.equipe-membro img {
+.team-item {
+  padding-top: 20px;
+}
+
+.team-img {
   margin: 0 auto;
-  border: 6px solid;
-  border-color: #fff;
   max-height: 150px;
 }
 
+.team-name {
+  font-size: 14px;
+  color: #000;
+}
 
+.team-role {
+  font-size: 12px;
+}
+
+.team-desc {
+  padding-top: 20px;
+}
 
 
 /* ------------------------------------------------------------------
-  8) CONTADOR
+  8) INFO
 ------------------------------------------------------------------ */
 
 .highlight-info {
@@ -472,7 +478,7 @@ hr {
   filter: grayscale(100%);
 }
 
-#contador h4 {
+#info h4 {
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 1px;
@@ -491,7 +497,13 @@ hr {
 }
 
 
+#contato .row {
+  padding-top: 60px;
+}
 
+#contato i {
+  color: #000;
+}
 
 /* ------------------------------------------------------------------
   10) FOOTER
