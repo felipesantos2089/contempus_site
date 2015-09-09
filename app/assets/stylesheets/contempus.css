@@ -6,11 +6,11 @@
 
 
 /* ------------------------------------------------------------------
-1) GERAL
+1) TYPOGRAPHY
 2) HEADER / MENU
-3) BOTÃO
+3) BOTÃOBUTTON
 4) SLIDER
-5) SERVIÇOS
+5) SERVIÇOSSERVICES
 6) PROJECTS
 7) TEAM
 8) CONTADOR
@@ -23,7 +23,7 @@
 
 
 /* ------------------------------------------------------------------
-  1) GERAL
+  1) TYPOGRAPHY
 ------------------------------------------------------------------ */
 
 html {
@@ -52,15 +52,15 @@ body {
   letter-spacing: 0.1em;
 }
 
-.subtitulo {
-  padding: 30px 250px 50px;
-}
-
 .content-box-title {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 14px;
   color: #000;
+}
+
+.content-box-subtitle {
+  padding: 30px 250px 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -183,7 +183,7 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  3) BOTÃO
+  3) BUTTON
 ------------------------------------------------------------------ */
 
 
@@ -294,19 +294,19 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  5) SERVIÇOS
+  5) SERVICES
 ------------------------------------------------------------------ */
 
-#servicos {
+#services {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
-#servicos .row {
+#services .row {
   padding-top: 60px;
 }
 
-#servicos i {
+#services i {
   color: #000;
 }
 
@@ -425,7 +425,7 @@ hr {
   padding-bottom: 150px;
 }
 
-.projects-same .titulo {
+.projects-same hr {
   padding-bottom: 50px;
 }
 
@@ -491,17 +491,17 @@ hr {
   9) CONTATO
 ------------------------------------------------------------------ */
 
-#contato {
+#contact {
   padding-top: 30px;
   padding-bottom: 150px;
 }
 
 
-#contato .row {
+#contact .row {
   padding-top: 60px;
 }
 
-#contato i {
+#contact i {
   color: #000;
 }
 
