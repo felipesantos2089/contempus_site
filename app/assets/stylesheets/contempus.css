@@ -11,7 +11,7 @@
 3) BOTÃO
 4) SLIDER
 5) SERVIÇOS
-6) PROJETOS
+6) PROJECTS
 7) TEAM
 8) CONTADOR
 9) CONTATO
@@ -150,9 +150,9 @@ hr {
   font-family: "Inconsolata", sans-serif;
   text-transform: uppercase;
   line-height: 1.4;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   color: #000;
 }
 
@@ -313,16 +313,16 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  6) PROJETOS
+  6) PROJECTS
 ------------------------------------------------------------------ */
 
-#projetos {
+#projects {
   padding-top: 30px;
   padding-bottom: 80px;
   background-color: #fafafa;
 }
 
-.projetos-filtro a { 
+.projects-filter a { 
   background: none repeat scroll 0 0;
   display: inline-block;
   font-weight: 400;
@@ -337,28 +337,28 @@ hr {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.projetos-filtro a.current { 
+.projects-filter a.current { 
   text-decoration: none;
   background: #282828;
   color: #fff;
   border: #282828 solid 2px;
 }
 
-.projetos-container .col-md-4 {
+.projects-container .col-md-4 {
   padding: 10px;
 }
 
-.projetos-titulo {
+.projects-title {
   padding-top: 130px;
   padding-bottom: 30px;
   background-color: #fafafa;
 }
 
-.projetos-secao {
+.projects-section {
   padding-bottom: 150px;
 }
 
-.projetos-item {
+.projects-item {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -367,7 +367,7 @@ hr {
   background-color: #fff;
 }
 
-.projetos-carousel .item img {
+.projects-carousel .item img {
   position: relative;
   padding: 0;
   overflow: hidden;
@@ -375,35 +375,35 @@ hr {
   height: auto;
 }
 
-.projeto-info .info {
+.project-info .info {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1px;
 }
 
-.projeto-info .info span {
+.project-info .info span {
   font-weight: 700;
 }
 
-.projeto-info .tags {
+.project-info .tags {
   margin: 20px 0 20px 0;
 }
 
-.projeto-info .tags ul {
+.project-info .tags ul {
   padding: 0;
   margin: 0;
 }
 
-.projeto-info .tags ul li {
+.project-info .tags ul li {
   padding: 5px;
   display: inline-block;
 }
 
-.projeto-info .tags ul li i.fa {
+.project-info .tags ul li i.fa {
   width: 20px;
 }
 
-.projeto-info .tags ul li a {
+.project-info .tags ul li a {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -411,21 +411,21 @@ hr {
   color: #333;
 }
 
-.projeto-info .tags ul li a:hover {
+.project-info .tags ul li a:hover {
   border-bottom: 1px solid;
 }
 
-.projeto-descricao {
+.project-desc {
   padding-top: 30px;
   text-align: justify;
 }
 
-.projetos-relacionados {
+.projects-same {
   padding-top: 100px;
   padding-bottom: 150px;
 }
 
-.projetos-relacionados .titulo {
+.projects-same .titulo {
   padding-bottom: 50px;
 }
 

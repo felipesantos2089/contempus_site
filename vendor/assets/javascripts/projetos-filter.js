@@ -1,5 +1,5 @@
 $(window).load(function(){
-    var $container = $('.projetos-container');
+    var $container = $('.projects-container');
     $container.isotope({
         filter: '*',
         animationOptions: {
@@ -9,8 +9,8 @@ $(window).load(function(){
         }
     });
  
-    $('.projetos-filtro a').click(function(){
-        $('.projetos-filtro .current').removeClass('current');
+    $('.projects-filter a').click(function(){
+        $('.projects-filter .current').removeClass('current');
         $(this).addClass('current');
  
         var selector = $(this).attr('data-filter');
