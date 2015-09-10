@@ -231,9 +231,12 @@ hr {
   04) SLIDER
 ------------------------------------------------------------------ */
 
-.header-carousel {
-  background-color: #fff;
+.header-menu {
   padding-top: 100px;
+}
+
+.header-carousel {
+  background-color: #000;
 }
 
 .header-carousel .item img {
@@ -242,14 +245,19 @@ hr {
   overflow: hidden;
   max-width: 100%;
   height: auto;
+  opacity: 0.4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .carousel-caption h1 {
   color: #fff;
+  font-size: 35px;
 }
 
 .carousel-caption {
   top: 15%;
+  font-size: 15px;
 }
 
 .carousel-subtitle {
@@ -313,7 +321,7 @@ hr {
 #projects {
   padding-top: 80px;
   padding-bottom: 80px;
-  /*background-color: #fafafa;*/
+  /*background-color: #f6f6f6;*/
 }
 
 #projects .row {
@@ -355,9 +363,9 @@ hr {
 }
 
 .projects-title {
-  padding-top: 130px;
+  padding-top: 150px;
   padding-bottom: 30px;
-  background-color: #fafafa;
+  background-color: #f6f6f6;
 }
 
 .projects-section {
@@ -479,7 +487,7 @@ hr {
   background: url(/assets/triangulos.jpg) center fixed;
   background-size: cover;
   color: #fff;
-  padding: 12em 0;
+  padding: 15em 0;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -504,7 +512,6 @@ hr {
   padding-top: 80px;
   padding-bottom: 150px;
 }
-
 
 #contact .row {
   padding-top: 60px;
