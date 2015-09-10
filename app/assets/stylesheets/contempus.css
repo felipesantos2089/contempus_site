@@ -249,7 +249,11 @@ hr {
 }
 
 .carousel-caption {
-  top: 25%;
+  top: 15%;
+}
+
+.carousel-subtitle {
+  padding: 30px 150px 30px;
 }
 
 .carousel-fade .carousel-inner .item {
@@ -701,8 +705,13 @@ figure.effect-bubba:hover a {
     top: 15%;
   }
   
-  .carousel-caption h1 {
+/*  .carousel-caption h1 {
     font-size: 30px;
+  }*/
+
+  .module-subtitle {
+    padding: 50px 0 50px;
+    text-align: center;
   }
 }
 
@@ -737,7 +746,7 @@ figure.effect-bubba:hover a {
   }
   
   .carousel-caption h1 {
-    font-size: 18px;
+    font-size: 12px;
   }
   
   figure {
@@ -749,6 +758,11 @@ figure.effect-bubba:hover a {
   .navbar-brand img {
     padding-top: 5px;
   }
+
+  .module-subtitle {
+    padding: 50px 0 50px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -756,6 +770,6 @@ figure.effect-bubba:hover a {
   figure {
     min-width: 100%;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 1000%;
   }
 }
