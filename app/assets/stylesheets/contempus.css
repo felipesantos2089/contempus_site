@@ -6,15 +6,15 @@
 
 
 /* ------------------------------------------------------------------
-1) TYPOGRAPHY
-2) HEADER / MENU
-3) BOTÃOBUTTON
-4) SLIDER
-5) SERVIÇOSSERVICES
-6) PROJECTS
-7) TEAM
-8) CONTADOR
-9) CONTATO
+01) TYPOGRAPHY
+02) HEADER / MENU
+03) BUTTON
+04) SLIDER
+05) SERVICES
+06) PROJECTS
+07) TEAM
+08) INFO
+09) CONTACT
 10) FOOTER
 11) BUBBA EFFECT
 12) ISOTOPE
@@ -23,7 +23,7 @@
 
 
 /* ------------------------------------------------------------------
-  1) TYPOGRAPHY
+  01) TYPOGRAPHY
 ------------------------------------------------------------------ */
 
 html {
@@ -59,8 +59,8 @@ body {
   color: #000;
 }
 
-.content-box-subtitle {
-  padding: 30px 250px 50px;
+.module-subtitle {
+  padding: 50px 200px 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,15 +68,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-h2 {
-  font-size: 20px;
+h1 {
+  font-size: 25px;
+  letter-spacing: 0.15em;
   color: #000;
 }
-
-h3 {
-  font-size: 14px;
-}
-
 
 a { 
   padding: 0;
@@ -110,7 +106,7 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  2) HEADER / MENU
+  02) HEADER / MENU
 ------------------------------------------------------------------ */
 
 .header {
@@ -183,7 +179,7 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  3) BUTTON
+  03) BUTTON
 ------------------------------------------------------------------ */
 
 
@@ -232,7 +228,7 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  4) SLIDER
+  04) SLIDER
 ------------------------------------------------------------------ */
 
 .header-carousel {
@@ -249,17 +245,11 @@ hr {
 }
 
 .carousel-caption h1 {
-  font-weight: 700;
-  font-size: 35px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  color: #fff;
 }
 
 .carousel-caption {
   top: 25%;
-  text-shadow: 2px;
 }
 
 .carousel-fade .carousel-inner .item {
@@ -294,7 +284,7 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  5) SERVICES
+  05) SERVICES
 ------------------------------------------------------------------ */
 
 #services {
@@ -313,13 +303,17 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  6) PROJECTS
+  06) PROJECTS
 ------------------------------------------------------------------ */
 
 #projects {
-  padding-top: 30px;
+  padding-top: 80px;
   padding-bottom: 80px;
   background-color: #fafafa;
+}
+
+#projects .row {
+  padding-top: 60px;
 }
 
 .projects-filter a { 
@@ -430,16 +424,16 @@ hr {
 }
 
 /* ------------------------------------------------------------------
-  7) TEAM
+  07) TEAM
 ------------------------------------------------------------------ */
 
 #team {
-  padding-top: 30px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
 #team .row {
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .team-item {
@@ -466,33 +460,36 @@ hr {
 
 
 /* ------------------------------------------------------------------
-  8) INFO
+  08) INFO
 ------------------------------------------------------------------ */
 
-.highlight-info {
+.info-container {
   background: url(/assets/triangulos.jpg) center fixed;
   background-size: cover;
-  color: #fafafa;
+  color: #fff;
   padding: 12em 0;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
-#info h4 {
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+.info-counter {
+  font-size: 30px;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+}
+
+.info-desc {
+  padding-top: 10px;
+  font-size: 15px;
 }
 
 
-
 /* ------------------------------------------------------------------
-  9) CONTATO
+  09) CONTACT
 ------------------------------------------------------------------ */
 
 #contact {
-  padding-top: 30px;
+  padding-top: 80px;
   padding-bottom: 150px;
 }
 
