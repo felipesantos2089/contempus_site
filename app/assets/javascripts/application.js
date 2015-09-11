@@ -18,5 +18,4 @@
 //= require scrolling-nav
 //= require jquery.isotope.min
 //= require wow
-//= require projetos-filter
 //= require_tree .

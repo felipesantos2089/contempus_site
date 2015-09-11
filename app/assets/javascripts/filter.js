@@ -1,5 +1,5 @@
 $(window).load(function(){
-    var $container = $('.projects-container');
+    var $container = $('.projects-grid');
     $container.isotope({
         filter: '*',
         animationOptions: {

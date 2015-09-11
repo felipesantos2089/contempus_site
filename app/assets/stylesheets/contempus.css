@@ -443,6 +443,142 @@ hr {
   padding-bottom: 50px;
 }
 
+
+/* Projects Grid */
+
+.projects-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects-grid.projects-grid-gut {
+  margin: 0 0 0 -10px;
+}
+
+.projects-grid.projects-grid-gut .project-item {
+  padding: 0 0 10px 10px;
+}
+
+.project-item {
+  width: 50%;
+  float: left;
+  margin: 0;
+}
+
+.projects-grid-3 .project-item {
+  width: 33.333%;
+}
+
+.container > .projects-grid-3 .project-item {
+  width: 33.2%;
+}
+
+
+/* Projects Item */
+
+.project-item > a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.project-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image img {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.project-image:after {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.project-caption {
+  width: 100%;
+  padding: 0 20px;
+  opacity: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.project-title {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 6px;
+}
+
+.project-descr {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #555;
+}
+
+
+/* Project Item Hover */
+
+.project-item:hover .project-image:after {
+  background: rgba(0, 0, 0, .7);
+}
+
+.project-item:hover .project-image > img {
+  -webkit-transform: scale(1.3);
+     -moz-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+       -o-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.project-item:hover .project-caption {
+  bottom: 50%;
+  opacity: 1;
+  z-index: 3;
+  -webkit-transform: translateY(50%);
+     -moz-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+
+/* Project Item White Background */
+
+.projects-grid.projects-hover-w .project-title {
+  color: #000;
+}
+
+.projects-grid.projects-hover-w .project-descr {
+  color: #555;
+}
+
+.projects-grid.projects-hover-w .project-item:hover .project-image:after {
+  background: rgba(255, 255, 255, .8);
+}
+
+/* Project Image Transition element */
+
+.project-caption,
+.project-image > img,
+.project-image:after {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+      -ms-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
+          transition: all 0.3s ease-in-out 0s;
+}
+
+
 /* ------------------------------------------------------------------
   07) TEAM
 ------------------------------------------------------------------ */
