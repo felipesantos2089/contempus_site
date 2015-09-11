@@ -323,6 +323,11 @@ hr {
   padding-top: 60px;
 }
 
+#projects-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 
 /* Projects Filter */
 
@@ -401,6 +406,7 @@ hr {
   display: block;
   overflow: hidden;
   width: 100%;
+  height: 250px;
 }
 
 .project-image:after {
@@ -498,8 +504,6 @@ hr {
 
 
 
-
-
 /* Página de Projetos e Projeto 1 */
 
 .projects-title {
@@ -508,17 +512,9 @@ hr {
   background-color: #f6f6f6;
 }
 
-.projects-section {
-  padding-bottom: 150px;
-}
-
 .projects-item {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.portfolio-carousel {
-  background-color: #fff;
 }
 
 .projects-carousel .item img {
