@@ -5,7 +5,7 @@
 
 
 /* ------------------------------------------------------------------
-01) TYPOGRAPHY
+01) TYPOGRAPHY / GENERAL
 02) HEADER / MENU
 03) BUTTON
 04) SLIDER
@@ -21,7 +21,7 @@
 
 
 /* ------------------------------------------------------------------
-  01) TYPOGRAPHY
+  01) TYPOGRAPHY / GENERAL
 ------------------------------------------------------------------ */
 
 html {
@@ -83,12 +83,12 @@ a {
           transition: background-color .2s linear, color .2s linear;
 }
 
-hr {
+/*hr {
   display: block;
   width: 100px;
   border-top: 1px solid #000;
   padding: 0;
-}
+}*/
 
 .padding-top {
   padding-top: 30px;
@@ -96,6 +96,11 @@ hr {
 
 .padding-bottom {
   padding-bottom: 30px;
+}
+
+.divider {
+  border-top: 1px solid #f5f5f5;
+  margin: 0;
 }
 
 .glyphicon-3x {
