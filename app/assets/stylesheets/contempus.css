@@ -694,11 +694,11 @@ Button styles
 
 .social-links a {
   text-decoration: none;
-  color: #000;
+  color: #333;
 }
 
 .social-links a:hover, a:focus {
-  color: #555;
+  color: #777;
 }
 
 
