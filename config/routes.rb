@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'pages#home'
 
   get 'projetos' => "pages#projetos", as: :projetos
+  get 'projetos_2' => "pages#projetos_2", as: :projetos_2
   get 'projeto_1' => "pages#projeto_1", as: :projeto_1
   
   # The priority is based upon order of creation: first created -> highest priority.

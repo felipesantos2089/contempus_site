@@ -76,6 +76,7 @@ a {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  color: #000;
   -webkit-transition: background-color .2s linear, color .2s linear;
      -moz-transition: background-color .2s linear, color .2s linear;
        -o-transition: background-color .2s linear, color .2s linear;
@@ -327,7 +328,6 @@ Button styles
 
 #projects-section {
   padding-top: 150px;
-  padding-bottom: 150px;
 }
 
 
@@ -368,11 +368,11 @@ Button styles
   margin: 0;
 }
 
-.projects-grid .projects-grid-gut {
+.projects-grid .projects-grid-margin {
   margin: 0 0 0 -10px;
 }
 
-.projects-grid.projects-grid-gut .project-item {
+.projects-grid.projects-grid-margin .project-item {
   padding: 0 0 10px 10px;
 }
 
@@ -466,7 +466,7 @@ Button styles
 
 /* Project Item White Background */
 
-.projects-grid.projects-hover-w .project-title {
+.projects-grid.projects-hover .project-title {
   /* Black */
   color: #fff;
 
@@ -474,7 +474,7 @@ Button styles
   /*color: #000;*/
 }
 
-.projects-grid.projects-hover-w .project-descr {
+.projects-grid.projects-hover .project-descr {
   /* Black */
   color: #cacaca;
 
@@ -482,7 +482,7 @@ Button styles
   /*color: #555;*/
 }
 
-.projects-grid.projects-hover-w .project-item:hover .project-image:after {
+.projects-grid.projects-hover .project-item:hover .project-image:after {
   /* Black */
   background: rgba(0, 0, 0, .8);
 
@@ -504,9 +504,35 @@ Button styles
 }
 
 
+/* Pagination */
+
+.pagination {
+  display: block;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.pagination a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  color: #555;
+  background-color: transparent;
+}
+
+.pagination a + a {
+  padding-left: 20px;
+}
 
 
-/* Página de Projetos e Projeto 1 */
+
+
+
+
+
+/* Página de Projeto 1 */
 
 .projects-title {
   padding-top: 150px;
@@ -669,8 +695,10 @@ Button styles
   10) FOOTER
 ------------------------------------------------------------------ */
 
-.footer {
-  position: relative;
+footer {
+  position: absolute; 
+  bottom: 0px;
+  width: 100%;
   padding: 25px 0 10px;
   background: #f5f5f5;;
 }
