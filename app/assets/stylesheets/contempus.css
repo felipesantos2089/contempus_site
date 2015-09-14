@@ -91,19 +91,6 @@ i {
   color: #000;
 }
 
-.padding {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.padding-top {
-  padding-top: 30px;
-}
-
-.padding-bottom {
-  padding-bottom: 30px;
-}
-
 .divider {
   border-top: 1px solid #f1f1f1;
   margin: 0;
@@ -111,6 +98,22 @@ i {
 
 .glyphicon-3x {
   font-size: 2em;
+}
+
+
+/* Padding */
+
+.p-t-b-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.p-t-30 {
+  padding-bottom: 30px;
+}
+
+.p-b-30 {
+  padding-bottom: 30px;
 }
 
 
