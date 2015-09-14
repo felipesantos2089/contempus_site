@@ -51,10 +51,13 @@ body {
 }
 
 .content-box-title {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0 15px;
   font-size: 14px;
   color: #000;
+}
+
+.module-title-icon {
+  padding-top: 5px;
 }
 
 .module-subtitle {
@@ -84,6 +87,10 @@ a {
           transition: background-color .2s linear, color .2s linear;
 }
 
+i {
+  color: #000;
+}
+
 .padding {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -95,10 +102,6 @@ a {
 
 .padding-bottom {
   padding-bottom: 30px;
-}
-
-.padding-title-icon {
-  padding-top: 5px;
 }
 
 .divider {
@@ -309,10 +312,6 @@ Button styles
 #services .row {
   padding-top: 60px;
   padding-bottom: 30px;
-}
-
-#services i {
-  color: #000;
 }
 
 
@@ -689,10 +688,6 @@ Button styles
   padding-top: 60px;
 }
 
-#contact i {
-  color: #000;
-}
-
 
 
 /* ------------------------------------------------------------------
@@ -724,12 +719,12 @@ footer {
   text-align: right;
 }
 
-.social-links a {
+.social-links i {
   text-decoration: none;
   color: #333;
 }
 
-.social-links a:hover, a:focus {
+.social-links i:hover, i:focus {
   color: #777;
 }
 
