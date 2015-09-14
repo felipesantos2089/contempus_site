@@ -1,77 +1,66 @@
 <% provide(:projeto_1, "active") %>
 <% provide(:title, "Projeto 1") %>
 
-<div class="projects-title">
-  <div class="container text-center">
-    <div class="font-alt">
-      <h1>Projeto 1</h1>
-    </div>
-  </div>
-</div>
-
-<div class="projects-item">
+<section>
   <div class="container">
     <div class="row">
+      
+      <div class="col-sm-6">
+        <div class="project-details p-t-150">
+          <h1 class="font-alt p-b-30">Barbearia El Macho</h1>
+          <ul>
+            <li class="font-inc"><strong>Cliente: </strong>Lucas Conde</li>
+            <li class="font-inc"><strong>Local: </strong>Belém, PA</li>
+            <li class="font-inc"><strong>Data de conclusão: </strong>23 de Agosto, 2015</li>
+          </ul>
 
-      <div class="col-sm-7">
-        <div id="projects-carousel" class="carousel slide carousel-fade projects-carousel" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#projects-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#projects-carousel" data-slide-to="1"></li>
-            <li data-target="#projects-carousel" data-slide-to="2"></li>
-          </ol>
-
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="assets/projetos/3.jpg" alt="image">
-            </div>
-            
-            <div class="item">    
-              <img src="assets/projetos/4.jpg" alt="image">
-            </div>
-
-            <div class="item">    
-              <img src="assets/projetos/10.jpg" alt="image">
-            </div>
+          <div class="project-tags">
+            <ul>
+              <li><i class="fa fa-tag"></i><a href="#" class="font-inc">Arquitetura de Interiores</a></li>
+              <li><i class="fa fa-tag"></i><a href="#" class="font-inc">Execução de Obras</a></li>
+            </ul>
           </div>
-
-          <a class="left carousel-control" href="#projects-carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="right carousel-control" href="#projects-carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-          </a>
         </div>
       </div>
 
-      <div class="col-sm-5">
-
-        <div class="project-info">
-          <div class="info"><span>Local</span>: Belém, PA</div>
-          <div class="info"><span>Data</span>: 05/16/2014</div>
+      <div class="col-sm-6">
+        <div class="project-text p-t-150">
+          <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+          Ut wisi enim ad minim veniam. Ut laoreet dolore magna aliquam erat volutpat.
+          </p>
+          <p>
+          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros 
+          et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+          </p>
+          <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+          Ut wisi enim ad minim veniam. Dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla.
+          </p>
         </div>
-
-        <div class="project-desc">
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-          <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-          <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-          <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-        </div>
-
-        <div class="project-info">
-          <div class="tags">
-            <ul>
-              <li><i class="fa fa-tag"></i><a href="#">Arquitetura de Interior</a></li>
-              <li><i class="fa fa-tag"></i><a href="#">Execução de Obra</a></li>
-            </ul>
-          </div>
       </div>
 
     </div>
   </div>
-</div>
+</section>
+
+<section>
+  <div class="container p-t-80">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="flexslider">
+          <ul class="slides">
+            <li><img src="assets/projetos/quarto-1.jpg" alt=""></li>
+            <li><img src="assets/projetos/sala-1.jpg" alt=""></li>
+            <li><img src="assets/projetos/cozinha-1.jpg" alt=""></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <div class="projects-related">
 
@@ -79,37 +68,53 @@
 
     <div class="font-alt">
       <h1>Projetos Relacionados</h1>
-      <hr>
+      <i class="fa fa-angle-down fa-2x module-title-icon"></i>
     </div>
 
-    <div class="col-md-4 salas">
-      <figure class="effect-bubba">
-        <img src="assets/projetos/9.jpg" alt="image">
-        <figcaption>
-          <h2>Trends</h2>
-          <a href="assets/projetos/9.jpg">View more</a>
-        </figcaption>
-      </figure>
-    </div>
+    <!-- PROJECT GRID -->
+    <ul id="projects-grid" class="projects-grid projects-grid-margin projects-hover">
 
-    <div class="col-md-4 quartos">
-      <figure class="effect-bubba">
-        <img src="assets/projetos/6.jpg" alt="image">
-        <figcaption>
-          <h2>Trends</h2>
-          <a href="assets/projetos/6.jpg">View more</a>
-        </figcaption>
-      </figure>
-    </div>
+      <!-- PROJECT ITEM -->
+      <li class="project-item quarto">
+        <a href="projeto_1.html">
+          <div class="project-image">
+            <img src="assets/projetos/quarto-2.jpg" alt="">
+          </div>
+          <div class="project-caption">
+            <h3 class="project-title font-alt">Titulo</h3>
+            <div class="project-descr font-inc">Subtitulo</div>
+          </div>
+        </a>
+      </li>
+      <!-- /PROJECT ITEM -->
 
-    <div class="col-md-4 quartos">
-      <figure class="effect-bubba">
-        <img src="assets/projetos/13.jpg" alt="image">
-        <figcaption>
-          <h2>Trends</h2>
-          <a href="assets/projetos/13.jpg">View more</a>
-        </figcaption>
-      </figure>
-    </div>
+      <!-- PROJECT ITEM -->
+      <li class="project-item sala">
+        <a href="projeto_1.html">
+          <div class="project-image">
+            <img src="assets/projetos/sala-2.jpg" alt="">
+          </div>
+          <div class="project-caption">
+            <h3 class="project-title font-alt">Titulo</h3>
+            <div class="project-descr font-inc">Subtitulo</div>
+          </div>
+        </a>
+      </li>
+      <!-- /PROJECT ITEM -->
+
+      <!-- PROJECT ITEM -->
+      <li class="project-item cozinha">
+        <a href="projeto_1.html">
+          <div class="project-image">
+            <img src="assets/projetos/cozinha-2.jpg" alt="">
+          </div>
+          <div class="project-caption">
+            <h3 class="project-title font-alt">Titulo</h3>
+            <div class="project-descr font-inc">Subtitulo</div>
+          </div>
+        </a>
+      </li>
+      <!-- /PROJECT ITEM -->
+    </ul>
   </div>
 </div>

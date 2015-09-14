@@ -60,10 +60,6 @@ body {
   padding-top: 5px;
 }
 
-.module-subtitle {
-  padding: 50px 200px 50px;
-}
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
   font-weight: 400;
@@ -71,6 +67,12 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 25px;
+  letter-spacing: 0.15em;
+  color: #000;
+}
+
+h2 {
+  font-size: 22px;
   letter-spacing: 0.15em;
   color: #000;
 }
@@ -103,13 +105,24 @@ i {
 
 /* Padding */
 
-.p-t-b-30 {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.p-subtitle {
+  padding: 80px 200px 80px;
+}
+
+.p-t-150 {
+  padding-top: 150px;
+}
+
+.p-t-80 {
+  padding-top: 80px;
+}
+
+.p-b-80 {
+  padding-bottom: 80px;
 }
 
 .p-t-30 {
-  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .p-b-30 {
@@ -328,14 +341,6 @@ Button styles
   padding-bottom: 80px;
 }
 
-#projects .row {
-  padding-top: 60px;
-}
-
-#projects-section {
-  padding-top: 150px;
-}
-
 
 /* Projects Filter */
 
@@ -533,23 +538,43 @@ Button styles
 }
 
 
+/* Single Project Page */
 
+.project-details strong {
+  color: #000;
+}
 
+.project-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-details ul > li {
+  margin: 0 0 10px;
+}
+
+.project-tags {
+  padding-top: 20px;
+}
+
+.project-tags ul li {
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.project-tags ul li i.fa {
+  width: 15px;
+}
+
+.project-text {
+  margin: 20px 0 0;
+  text-align: justify;
+}
 
 
 
 /* Página de Projeto 1 */
-
-.projects-title {
-  padding-top: 150px;
-  padding-bottom: 30px;
-  background-color: #f6f6f6;
-}
-
-.projects-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
 .projects-carousel .item img {
   position: relative;
@@ -559,15 +584,6 @@ Button styles
   height: auto;
 }
 
-.project-info .info {
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-.project-info .info span {
-  font-weight: 700;
-}
 
 .project-info .tags {
   margin: 20px 0 20px 0;
@@ -599,10 +615,10 @@ Button styles
   border-bottom: 1px solid;
 }
 
-.project-desc {
-  padding-top: 30px;
-  text-align: justify;
-}
+
+
+
+
 
 .projects-related {
   padding-top: 100px;
@@ -622,10 +638,6 @@ Button styles
 #team {
   padding-top: 80px;
   padding-bottom: 80px;
-}
-
-#team .row {
-  padding-top: 60px;
 }
 
 .team-item {
@@ -685,10 +697,6 @@ Button styles
 #contact {
   padding-top: 80px;
   padding-bottom: 150px;
-}
-
-#contact .row {
-  padding-top: 60px;
 }
 
 

@@ -1,3 +1,7 @@
+
+/* ---------------------------------------------- /*
+ * Projects Filter
+/* ---------------------------------------------- */
 $(window).load(function(){
     var $container = $('.projects-grid');
     $container.isotope({
@@ -24,4 +28,15 @@ $(window).load(function(){
          });
          return false;
     }); 
+});
+
+
+
+/* ---------------------------------------------- /*
+ * Project Images Slider
+/* ---------------------------------------------- */
+
+$('.flexslider').flexslider( {
+  animation: 'slide',
+  smoothHeight: true,
 });
