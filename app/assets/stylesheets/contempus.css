@@ -109,9 +109,15 @@ i {
   padding: 80px 200px 80px;
 }
 
+
 .p-t-150 {
   padding-top: 150px;
 }
+
+.p-b-150 {
+  padding-bottom: 150px;
+}
+
 
 .p-t-80 {
   padding-top: 80px;
@@ -120,6 +126,16 @@ i {
 .p-b-80 {
   padding-bottom: 80px;
 }
+
+
+.p-t-50 {
+  padding-top: 50px;
+}
+
+.p-b-50 {
+  padding-bottom: 50px;
+}
+
 
 .p-t-30 {
   padding-top: 30px;
@@ -567,66 +583,14 @@ Button styles
   width: 15px;
 }
 
+.project-tags ul li a:hover {
+  color: #555;
+  text-decoration: none;
+}
+
 .project-text {
   margin: 20px 0 0;
   text-align: justify;
-}
-
-
-
-/* Página de Projeto 1 */
-
-.projects-carousel .item img {
-  position: relative;
-  padding: 0;
-  overflow: hidden;
-  max-width: 100%;
-  height: auto;
-}
-
-
-.project-info .tags {
-  margin: 20px 0 20px 0;
-}
-
-.project-info .tags ul {
-  padding: 0;
-  margin: 0;
-}
-
-.project-info .tags ul li {
-  padding: 5px;
-  display: inline-block;
-}
-
-.project-info .tags ul li i.fa {
-  width: 20px;
-}
-
-.project-info .tags ul li a {
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #333;
-}
-
-.project-info .tags ul li a:hover {
-  border-bottom: 1px solid;
-}
-
-
-
-
-
-
-.projects-related {
-  padding-top: 100px;
-  padding-bottom: 150px;
-}
-
-.projects-related hr {
-  padding-bottom: 50px;
 }
 
 
