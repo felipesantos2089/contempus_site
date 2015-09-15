@@ -16,7 +16,7 @@
 //= require classie
 //= require animated-header
 //= require scrolling-nav
-//= require jquery.flexslider-min
+//= require jquery.magnific-popup
 //= require jquery.isotope.min
 //= require wow
 //= require custom

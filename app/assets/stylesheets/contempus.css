@@ -409,11 +409,11 @@ Button styles
   margin: 0;
 }
 
-.projects-grid .project-item {
+.projects-grid-3 .project-item {
   width: 33.333%;
 }
 
-.container > .projects-grid .project-item {
+.container > .projects-grid-3 .project-item {
   width: 33.2%;
 }
 
@@ -432,6 +432,13 @@ Button styles
 }
 
 .project-image img {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+.projects-grid-3 .project-image img {
   display: block;
   overflow: hidden;
   width: 100%;
@@ -457,6 +464,10 @@ Button styles
   left: 0;
   text-align: center;
   overflow: hidden;
+}
+
+.project-caption i {
+  color: #fff;
 }
 
 .project-title {
@@ -581,6 +592,10 @@ Button styles
 
 .project-tags ul li i.fa {
   width: 15px;
+}
+
+.project-tags ul li a {
+  font-weight: bold;
 }
 
 .project-tags ul li a:hover {

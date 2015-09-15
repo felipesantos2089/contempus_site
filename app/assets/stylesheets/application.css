@@ -13,8 +13,7 @@
  *= require_self
  *= require bootstrap.min
  *= require font-awesome.min
- *= require flexslider
+ *= require magnific-popup
  *= require animate
- *= require custom
  *= require_tree .
  */
