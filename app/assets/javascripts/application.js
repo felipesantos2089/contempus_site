@@ -19,4 +19,5 @@
 //= require jquery.flexslider-min
 //= require jquery.isotope.min
 //= require wow
+//= require custom
 //= require_tree .
