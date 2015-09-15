@@ -11,7 +11,7 @@
 04) SLIDER
 05) SERVICES
 06) PROJECTS
-07) TEAM
+07) ABOUT
 08) INFO
 09) CONTACT
 10) FOOTER
@@ -615,16 +615,20 @@ Button styles
 
 
 /* ------------------------------------------------------------------
-  07) TEAM
+  07) ABOUT
 ------------------------------------------------------------------ */
 
-#team {
+#about {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
+.about-office {
+  text-align: justify;
+}
+
 .team-item {
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .team-img {
@@ -642,7 +646,7 @@ Button styles
 }
 
 .team-desc {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 
