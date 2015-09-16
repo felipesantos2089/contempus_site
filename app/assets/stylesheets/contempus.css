@@ -623,17 +623,24 @@ Button styles
   padding-bottom: 80px;
 }
 
-.about-office {
+.about {
   text-align: justify;
+  padding-right: 50px;
 }
 
-.team-item {
-  padding-top: 5px;
+.team{ 
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
 .team-img {
-  margin: 0 auto;
+  padding-right: 0;
+}
+
+.team-img img {
+  margin: 0;
   max-height: 150px;
+  
 }
 
 .team-name {
@@ -647,6 +654,7 @@ Button styles
 
 .team-desc {
   padding-top: 10px;
+  text-align: justify;
 }
 
 
