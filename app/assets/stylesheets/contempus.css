@@ -223,7 +223,7 @@ i {
   font-family: "Inconsolata", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .btn.focus,
@@ -254,6 +254,18 @@ i {
   color: #fff;
 }
 
+.btn.btn-contact {
+  background: transparent;
+  font-size: 11px;
+  border: 1px solid #b2b2b2;
+  color: #666;
+}
+
+.btn.btn-contact:hover,
+.btn.btn-contact:focus {
+  background: #b2b2b2;
+  color: #fff;
+}
 
 
 /* ------------------------------------------------------------------
@@ -659,6 +671,30 @@ i {
   09) CONTACT
 ------------------------------------------------------------------ */
 
+#contact-form {
+  text-align: left;
+}
+
+.form-control {
+  font-family: "Inconsolata", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 11px;
+  height: 33px;
+  border: 1px solid #b2b2b2;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.form-control, .form-control:hover, .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #CACACA;
+}
 
 
 

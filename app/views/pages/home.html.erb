@@ -380,7 +380,49 @@
       <h1>Contate-nos</h1>
     </div>
 
-    <div class="row  p-t-80">
+    <div class="font-inconsolata p-t-50 p-b-80 p-l-r-200">
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+
+        <form id="contact-form" role="form" novalidate="">
+          <div class="form-group">
+            <label class="sr-only" for="cname">Seu Nome</label>
+            <input type="text" id="cname" class="form-control" name="cname" placeholder="Seu Nome" required="" data-validation-required-message="Por favor informe seu nome." aria-invalid="false">
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <div class="form-group">
+            <label class="sr-only" for="cemail">Seu Email</label>
+            <input type="email" id="cemail" name="cemail" class="form-control" placeholder="Seu Email" required="" data-validation-required-message="Por favor informe seu email.">
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Mensagem" required="" data-validation-required-message="Por favor digite a mensagem."></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+
+          <button type="submit" class="btn btn-contact btn-round">Enviar</button>
+
+        </form>
+
+        <!-- Ajax response -->
+        <div id="contact-response" class="ajax-response font-alt"></div>
+
+      </div>
+    </div>
+    <!-- /CONTACT FORM -->
+
+    <div class="row p-t-80">
+
+      <!-- DIVIDER -->
+      <hr class="divider p-b-80">
+      <!-- /DIVIDER -->
+
       <div class="col-md-4">
         <i class="glyphicon glyphicon-map-marker glyphicon-3x"></i>
         <div class="content-box-title font-inconsolata">Tv. Padre Eutíquio, 3457. Batista Campos</div>
