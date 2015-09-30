@@ -573,7 +573,7 @@ i {
   font-weight: bold;
 }
 
-.project-tags ul li a:hover {
+.project-tags ul li a:hover, a:focus {
   color: #555;
   text-decoration: none;
 }
