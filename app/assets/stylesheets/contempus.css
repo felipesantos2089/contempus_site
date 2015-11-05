@@ -256,14 +256,14 @@ i {
 
 .btn.btn-contact {
   background: transparent;
-  font-size: 11px;
-  border: 1px solid #b2b2b2;
-  color: #666;
+  font-size: 12px;
+  border: 1px solid #555;
+  color: #555;
 }
 
 .btn.btn-contact:hover,
 .btn.btn-contact:focus {
-  background: #b2b2b2;
+  background: #222;
   color: #fff;
 }
 
@@ -679,9 +679,9 @@ i {
   font-family: "Inconsolata", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 11px;
+  font-size: 12px;
   height: 33px;
-  border: 1px solid #b2b2b2;
+  border: 1px solid #CACACA;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
@@ -693,7 +693,7 @@ i {
 }
 
 .form-control:focus {
-  border-color: #CACACA;
+  border-color: #555;
 }
 
 
