@@ -610,33 +610,31 @@ i {
   padding-right: 50px;
 }
 
-.team{ 
+.office-image {
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 20px;
+}
+
+.office-image img {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 450px;
 }
 
 .team-img {
-  padding-right: 0;
-}
-
-.team-img img {
-  margin: 0;
+  margin: 0 auto;
   max-height: 150px;
-  
 }
 
 .team-name {
+  padding-top: 20px;
   font-size: 14px;
   color: #000;
 }
 
-.team-role {
-  font-size: 12px;
-}
-
 .team-desc {
   padding-top: 10px;
-  text-align: justify;
 }
 
 

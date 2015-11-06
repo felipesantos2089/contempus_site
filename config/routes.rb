@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   root 'pages#home'
 
   get 'projetos' => "pages#projetos", as: :projetos
+  get 'servicos' => "pages#servicos", as: :servicos
+  get 'sobre' => "pages#sobre", as: :sobre
+  get 'contato' => "pages#contato", as: :contato
   get 'projetos_2' => "pages#projetos_2", as: :projetos_2
   get 'projeto_1' => "pages#projeto_1", as: :projeto_1
   
