@@ -164,10 +164,10 @@ i {
   padding-top: 5px;
 }
 
-/*.navbar-default .navbar-brand img {
+nav.shrink .navbar-brand img {
   padding-top: 5px;
-  max-height: 50px;
-}*/
+  max-height: 45px;
+}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   font-weight: 700;
