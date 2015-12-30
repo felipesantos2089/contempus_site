@@ -199,11 +199,11 @@ nav.shrink .navbar-brand img {
 }
 
 .navbar-default .navbar-toggle {
-  border: 1px solid #282828;
+  border: none;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #282828;
+  background-color: #000;
 
 }
 
@@ -291,7 +291,7 @@ nav.shrink .navbar-brand img {
   overflow: hidden;
   max-width: 100%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 0.5;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
@@ -779,23 +779,27 @@ footer {
   12) RESPONSIVENESS
 ------------------------------------------------------------------ */
 
-@media only screen and (min-width : 1224px) {}
+@media only screen and (min-width : 1224px) {
+  
+}
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   
+  /* Slider */
   .carousel-caption {
-    top: 15%;
+    top: 50px;
   }
   
-/*  .carousel-caption h1 {
-    font-size: 30px;
-  }*/
-
-  .module-subtitle {
-    padding: 50px 0 50px;
-    text-align: center;
+  .carousel-caption h1 {
+    font-size: 32px;
   }
+
+  .carousel-subtitle {
+    font-size: 18px;
+    padding: 50px 0 50px;
+  }
+  
 }
 
 @media (min-width: 768px) {
@@ -814,36 +818,34 @@ footer {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  
-  .carousel-caption {
-    top: 5px;
-  }
-  
-  .carousel-caption h1 {
-    font-size: 12px;
-  }
-  
-  figure {
-    min-width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
+
+  /* Menu */
   .navbar-brand img {
     padding-top: 5px;
   }
-
-  .module-subtitle {
-    padding: 50px 0 50px;
-    text-align: center;
+  
+  nav.shrink .navbar-brand img {
+    max-height: 150px;
   }
+
+
+  /* Slider */
+  .carousel-caption {
+    top: 50px;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 25px;
+  }
+
+  .carousel-subtitle {
+    font-size: 16px;
+    padding: 50px 0 50px;
+  }
+
 }
 
 @media (max-width: 480px) {
   
-  figure {
-    min-width: 100%;
-    max-width: 100%;
-    max-height: 1000%;
-  }
+
 }
