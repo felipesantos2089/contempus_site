@@ -164,6 +164,11 @@ i {
   padding-top: 5px;
 }
 
+/*.navbar-default .navbar-brand img {
+  padding-top: 5px;
+  max-height: 50px;
+}*/
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   font-weight: 700;
   color: #000;
@@ -804,15 +809,6 @@ footer {
 
   .top-nav-collapse {
     padding: 0;
-  }
-
-  .navbar-default.navbar-shrink .navbar-brand img {
-    padding-top: 5px;
-    max-height: 50px;
-  }
-
-  .navbar.navbar-shrink {
-    opacity: 0.9;
   }
 }
 

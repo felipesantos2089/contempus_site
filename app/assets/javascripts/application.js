@@ -13,7 +13,6 @@
 //= require jquery.min
 //= require bootstrap.min
 //= require jquery.easing.1.3
-//= require animated-header
 //= require jquery.magnific-popup
 //= require jquery.isotope.min
 //= require wow
