@@ -814,6 +814,7 @@ footer {
   .top-nav-collapse {
     padding: 0;
   }
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -847,6 +848,15 @@ footer {
     padding: 50px 0 50px;
   }
 
+  /* FOOTER */
+  .copyright {
+    text-align: center;
+  }
+
+  .social-links {
+    padding-top: 20px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
