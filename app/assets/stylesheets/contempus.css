@@ -879,6 +879,10 @@ footer {
     height: 500px;
   }
 
+  .project-text {
+    padding-top: 20px;
+  }
+
 
   /* ABOUT */
   .about {
