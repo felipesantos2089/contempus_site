@@ -401,11 +401,11 @@ nav.shrink .navbar-brand img {
   margin: 0;
 }
 
-.projects-grid-3 .project-item {
+.projects-grid .project-item {
   width: 33.333%;
 }
 
-.container > .projects-grid-3 .project-item {
+.container > .projects-grid .project-item {
   width: 33.2%;
 }
 
@@ -430,7 +430,7 @@ nav.shrink .navbar-brand img {
   height: 400px;
 }
 
-.projects-grid-3 .project-image img {
+.projects-grid .project-image img {
   display: block;
   overflow: hidden;
   width: 100%;
@@ -848,6 +848,21 @@ footer {
     padding: 50px 0 50px;
   }
 
+
+  /* PROJECTS */
+  .projects-grid .project-item {
+    width: 100%;
+  }
+
+  .container > .projects-grid .project-item {
+    width: 100%;
+  }
+
+  .projects-grid .project-image img {
+    height: 500px;
+  }
+
+
   /* FOOTER */
   .copyright {
     text-align: center;
@@ -864,5 +879,11 @@ footer {
     /* Slider */
   .carousel-caption {
     top: 80px;
+  }
+
+
+  /* PROJECTS */
+  .projects-grid .project-image img {
+    height: 300px;
   }
 }
