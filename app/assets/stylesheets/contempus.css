@@ -885,6 +885,10 @@ footer {
     padding: 0 20px 0;
   }
 
+  .about h1 {
+    text-align: center;
+  }
+
   .office-img {
     padding: 40px 20px 0;
   }
