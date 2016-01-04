@@ -867,6 +867,10 @@ footer {
 
 
   /* PROJECTS */
+  .projects-page-title {
+    padding-top: 100px;
+  }
+
   .projects-grid .project-item {
     width: 100%;
   }
@@ -879,12 +883,24 @@ footer {
     height: 500px;
   }
 
+  .project-details {
+    padding-top: 100px;
+  }
+
+  .project-details h1 {
+    text-align: center;
+  }
+
   .project-text {
     padding-top: 20px;
   }
 
 
   /* ABOUT */
+  .about-page {
+    padding-top: 100px;
+  }
+
   .about {
     padding: 0 20px 0;
   }
@@ -906,12 +922,20 @@ footer {
   }
 
   /* SERVICES 8 */
+  .services-page-title {
+    padding-top: 100px;
+  }
+
   .service-subtitle {
     padding: 50px 50px 80px;
   }
 
 
   /* CONTACT */
+  .contact-page {
+    padding-top: 100px;
+  }
+
   #contact .content-box-title {
     padding-bottom: 80px;
   }
