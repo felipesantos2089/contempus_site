@@ -803,7 +803,7 @@ footer {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
   
-  /* Slider */
+  /* SLIDER */
   .carousel-caption {
     top: 50px;
   }
@@ -837,7 +837,7 @@ footer {
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
-  /* Menu */
+  /* MENU */
   .header-menu {
     padding-top: 0;
   }
@@ -851,7 +851,7 @@ footer {
   }
 
 
-  /* Slider */
+  /* SLIDER */
   .carousel-caption {
     top: 100px;
   }
@@ -879,6 +879,15 @@ footer {
     height: 500px;
   }
 
+
+  /* ABOUT */
+  .team-desc {
+    padding-bottom: 80px;
+  }
+
+  .info-desc {
+    padding-bottom: 50px;
+  }
 
   /* SERVICES 8 */
   .service-subtitle {
@@ -909,7 +918,7 @@ footer {
 
 @media (max-width: 480px) {
   
-    /* Slider */
+    /* SLIDER */
   .carousel-caption {
     top: 80px;
   }
