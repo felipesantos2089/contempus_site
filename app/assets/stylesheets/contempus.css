@@ -674,6 +674,10 @@ nav.shrink .navbar-brand img {
   09) CONTACT
 ------------------------------------------------------------------ */
 
+.contact-subtitle {
+  padding: 50px 200px 80px;
+}
+
 #contact-form {
   text-align: left;
 }
@@ -860,6 +864,16 @@ footer {
 
   .projects-grid .project-image img {
     height: 500px;
+  }
+
+
+  /* CONTACT */
+  #contact .content-box-title {
+    padding-bottom: 80px;
+  }
+
+  .contact-subtitle {
+    padding: 50px 50px 80px;
   }
 
 
