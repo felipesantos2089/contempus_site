@@ -835,7 +835,7 @@ footer {
 
   /* Slider */
   .carousel-caption {
-    top: 50px;
+    top: 100px;
   }
   
   .carousel-caption h1 {
@@ -851,5 +851,8 @@ footer {
 
 @media (max-width: 480px) {
   
-
+    /* Slider */
+  .carousel-caption {
+    top: 80px;
+  }
 }
