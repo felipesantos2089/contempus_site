@@ -414,11 +414,11 @@ nav.shrink .navbar-brand img {
   margin: 0;
 }
 
-.projects-grid .project-item {
+.projects-grid-3 .project-item {
   width: 33.333%;
 }
 
-.container > .projects-grid .project-item {
+.container > .projects-grid-3 .project-item {
   width: 33.2%;
 }
 
@@ -443,7 +443,7 @@ nav.shrink .navbar-brand img {
   height: 400px;
 }
 
-.projects-grid .project-image img {
+.projects-grid-3 .project-image img {
   display: block;
   overflow: hidden;
   width: 100%;
@@ -871,11 +871,19 @@ footer {
     padding-top: 100px;
   }
 
-  .projects-grid .project-item {
+  .projects-grid-3 .project-item {
     width: 100%;
   }
 
-  .container > .projects-grid .project-item {
+  .container > .projects-grid-3 .project-item {
+    width: 100%;
+  }
+
+  .projects-grid-1 .project-item {
+    width: 100%;
+  }
+
+  .container > .projects-grid-1 .project-item {
     width: 100%;
   }
 
