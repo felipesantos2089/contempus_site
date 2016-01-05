@@ -405,7 +405,7 @@ nav.shrink .navbar-brand img {
 }
 
 .projects-grid.projects-grid-margin .project-item {
-  padding: 0 0 10px 10px;
+  padding: 0 5px 10px;
 }
 
 .project-item {
@@ -879,16 +879,20 @@ footer {
     width: 100%;
   }
 
-  .projects-grid-1 .project-item {
+  .projects-grid-2 .project-item {
     width: 100%;
   }
 
-  .container > .projects-grid-1 .project-item {
+  .container > .projects-grid-2 .project-item {
     width: 100%;
   }
 
   .projects-grid .project-image img {
     height: 500px;
+  }
+
+  .projects-grid.projects-grid-margin .project-item {
+    padding: 0 0 10px;
   }
 
   .project-details {
